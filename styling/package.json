@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass -w scss:../public/css"
+    "sass": "sass -w scss:../public/css",
+    "minify": "sass -w scss:css --style=compressed"
   },
   "keywords": [],
   "author": "",
