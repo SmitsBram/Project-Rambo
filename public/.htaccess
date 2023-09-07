@@ -1,8 +1,24 @@
+# <IfModule mod_rewrite.c>
+#     Options -Multiviews
+#     RewriteEngine On 
+#     RewriteBase /public
+#     RewriteCond %{REQUEST_FILENAME} !-d
+#     RewriteCond %{REQUEST_FILENAME} !-f
+#     RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+# </IfModule>
+
+# Arjan code
 <IfModule mod_rewrite.c>
+<<<<<<< HEAD
+    RewriteEngine On
+    RewriteRule ^$ public/ [L]
+    RewriteRule (.*) public/$1 [L]
+=======
     Options -Multiviews
     RewriteEngine On
     RewriteBase /public
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+>>>>>>> 622cab2850a3a1ad18e1242c9393d2236d21d896
 </IfModule>
