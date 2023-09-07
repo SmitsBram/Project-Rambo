@@ -1,6 +1,6 @@
 <?php
 
-class Homepage extends BaseController
+class Restaurant extends BaseController
 {
     public function index()
     {
@@ -8,6 +8,6 @@ class Homepage extends BaseController
             'title' => 'Homepage'
         ];
     
-        $this->view('Homepage/index', $data);
+        $this->view('restaurant/index', $data);
     }
 }
