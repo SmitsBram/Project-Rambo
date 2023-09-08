@@ -36,13 +36,15 @@
         </form>
     </div>
 <!-- dit word nog verplaats naar scss  -->
-    <style>
+<style>
         body {
             font-family: Arial, sans-serif;
         }
         .container {
             width: 50%;
             margin: 0 auto;
+            border: 2px solid #007BFF; /* Voeg een rand toe om het vak te maken */
+            padding: 20px; /* Voeg wat ruimte binnen het vak toe */
         }
         .form-group {
             margin-bottom: 20px;
@@ -51,7 +53,7 @@
             display: block;
             font-weight: bold;
         }
-        input[type="text"],
+        input[type="number"],
         input[type="date"],
         input[type="time"] {
             width: 100%;
@@ -73,6 +75,5 @@
             cursor: pointer;
         }
     </style>
-
 </body>
 </html>
