@@ -2,15 +2,26 @@
 
 class BaseController
 {
+    public function part($name, $data = [])
+    {
+        if (file_exists('../app/views/parts/' . $name . '.php')) {
+            require_once('../app/views/parts/' . $name . '.php');
+        } else {
+            echo 'De view bestaat niet';
+        }
+    }
 
     public function view($view, $data = [])
     {
-        if ( file_exists('../app/views/' . $view . '.php')) {
+        $this->part('header', $data);
+
+        if (file_exists('../app/views/' . $view . '.php')) {
             require_once('../app/views/' . $view . '.php');
         } else {
             echo 'De view bestaat niet';
         }
-
+        
+        $this->part('footer', $data);
     }
 
     public function model($model)

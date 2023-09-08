@@ -1,10 +1,1 @@
-<?php
-require_once('../parts/header.php');
-
-
-
-
-
-
-
-require_once('../parts/footer.php');
+<h1>Homepage</h1>
