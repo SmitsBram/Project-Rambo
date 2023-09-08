@@ -1,24 +1,17 @@
 {
-  "name": "project-rocambolesque",
+  "name": "styling",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "echo \"Error: no test specified\" && exit 1",
     "sass" : "sass -w scss:css",
     "minify" : "sass -w scss:css --style=compressed"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SmitsBram/Project-Rocambolesque.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SmitsBram/Project-Rocambolesque/issues"
-  },
-  "homepage": "https://github.com/SmitsBram/Project-Rocambolesque#readme",
-  "devDependencies": {
+  "dependencies": {
     "sass": "^1.66.1"
   }
 }
