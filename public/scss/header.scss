@@ -1,0 +1,7 @@
+@use "config/config";
+
+
+body {
+    background-color: get-color("White");
+    color: green;
+}
