@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #007BFF; /* Voeg een rand toe om het vak te maken */
+    padding: 20px; /* Voeg wat ruimte binnen het vak toe */
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+  /* dit is tijdelijk  */
+
+  /* hier begint de styling van de navbar */
+  .navbar {
+    background-color: #333; /* Achtergrondkleur van de navbar */
+    overflow: hidden; /* Voorkomt dat de inhoud uitsteekt */
+}
+
+/* Stijl voor de koppelingen in de navbar */
+.navbar a {
+    float: left; /* Laat de koppelingen naast elkaar staan */
+    display: block; /* Maakt van de hele link een klikbaar gebied */
+    color: white; /* Tekstkleur */
+    text-align: center; /* Centreer de tekst */
+    padding: 14px 16px; /* Ruimte binnen de koppelingen */
+    text-decoration: none; /* Verwijder de standaard onderstreping van koppelingen */
+}
+
+/* Stijl voor de koppelingen in de navbar bij hover (wanneer je met de muis erover beweegt) */
+.navbar a:hover {
+    background-color: #ddd; /* Achtergrondkleur bij hover */
+    color: black; /* Tekstkleur bij hover */
+}
+/* hier eidigt de styling van de navbar) */
+
+
+/* Stijl voor de footer */
+.footer {
+    background-color: #333; /* Achtergrondkleur van de footer */
+    color: white; /* Tekstkleur in de footer */
+    text-align: center; /* Centreer de tekst in de footer */
+    padding: 10px 0; /* Ruimte binnen de footer */
+}
+/* hier eidigt de styling van de footer */

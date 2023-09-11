@@ -1,6 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserveren-pagina</title>
+    <link rel="stylesheet" href="/css/reserveren.css">
+</head>
 <body>
     <h1>Reserveren</h1>
+
+    <!--de navbar is tijdelijk -->
+
+    <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Over Ons</a>
+    <a href="#">Diensten</a>
+    <a href="#">Contact</a>
+</div>
      
     <div class="container">
         <h2>Reserveren</h2>
@@ -30,4 +46,11 @@
         </form>
     </div>
 
+<!-- de footer is ook tijdelijk -->
+
+    <div class="footer">
+    &copy; 2023 Jouw Bedrijfsnaam. Alle rechten voorbehouden.
+</div>
+
 </body>
+</html>
