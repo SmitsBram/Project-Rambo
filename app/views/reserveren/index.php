@@ -29,44 +29,5 @@
             <button type="submit">Reserveren</button>
         </form>
     </div>
-<!-- dit word nog verplaats naar scss  -->
-<style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 50%;
-            margin: 0 auto;
-            border: 2px solid #007BFF; /* Voeg een rand toe om het vak te maken */
-            padding: 20px; /* Voeg wat ruimte binnen het vak toe */
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            font-weight: bold;
-        }
-        input[type="number"],
-        input[type="date"],
-        input[type="time"] {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-        }
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-        }
-        button {
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    </style>
+
 </body>
