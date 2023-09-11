@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-</head>
-
-<body>
-
-</body>
-
-</html>
+<section class="banner">
+    <img src="" alt="">
+    <h1>Verken Wereldse Smaken</h1>
+    <button><a href="#menu">Menu</a></button>
+    <button><a href="#reserveren">Reserveren</a></button>
+</section>
