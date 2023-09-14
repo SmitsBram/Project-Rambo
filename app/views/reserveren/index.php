@@ -17,7 +17,8 @@
     <a href="#">Diensten</a>
     <a href="#">Contact</a>
 </div>
-     
+     <h2>Het restaurant is iedere dag van 17:00 - 22:00 geopened. 
+De bar is van 22:00 - 00:00 open.</h2>
     <div class="container">
         <h2>Reserveren</h2>
         <form>
