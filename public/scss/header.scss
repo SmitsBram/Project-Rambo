@@ -1,14 +1,13 @@
-@use "config/config";
+@use "./config/config";
 
 
 // body {
-//     background-color: get-color("White");
-//     color: red;
+//     background-color: get-color("Black");
+//     // color: red;
 // }
 
 // Nav section styling
 .main-head {
-    // background-color: get-color("Black");
     background-color: black;
     color: white;
     height: 5rem;
@@ -19,17 +18,25 @@
 
 
     nav {
+        // background-color: config.get-color("Black");
+        position: absolute;
         width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
         // justify-content: center;
         min-height: 10vh;
+        top: 2px;
+
     }
 
     #logo {
         width: 10rem;
+        position: relative;
         flex: 1 1 10rem;
+        inset: 0;
+        left: 10px;
+
     }
 
     ul {
@@ -60,6 +67,7 @@
             border-radius: 50rem;
             text-decoration: none;
             color: white;
+            letter-spacing: 0.3rem;
 
             a {
                 padding: 1rem;

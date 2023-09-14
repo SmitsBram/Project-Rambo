@@ -8,15 +8,20 @@
   /* top | right | bottom | left */
 }
 .main-head nav {
+  position: absolute;
   width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
   min-height: 10vh;
+  top: 2px;
 }
 .main-head #logo {
   width: 10rem;
+  position: relative;
   flex: 1 1 10rem;
+  inset: 0;
+  left: 10px;
 }
 .main-head ul {
   display: flex;
@@ -43,6 +48,7 @@
   border-radius: 50rem;
   text-decoration: none;
   color: white;
+  letter-spacing: 0.3rem;
 }
 .main-head .btn button a {
   padding: 1rem;
