@@ -1,14 +1,11 @@
 @use "./config/config";
 
 
-// body {
-//     background-color: get-color("Black");
-//     // color: red;
-// }
+
 
 // Nav section styling
 .main-head {
-    background-color: black;
+    background-color: config.get-color("Black");
     color: white;
     height: 5rem;
     width: auto;
@@ -18,7 +15,6 @@
 
 
     nav {
-        // background-color: config.get-color("Black");
         position: absolute;
         width: 90%;
         margin: auto;

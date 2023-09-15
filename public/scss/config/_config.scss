@@ -7,7 +7,7 @@ $colors: (
   "DB":#40261D,
   "LG":#F2F2F2,
   "White":#FFFF,
-  "Black":#0000,
+  "Black": #000f,
 );
 
 @function get-color($color: false) {
