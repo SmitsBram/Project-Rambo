@@ -6,6 +6,6 @@
     <title>Template</title>
 </head>
 <body>
-    
+     <img src="../public/IMG/bg-contact.png">
 </body>
 </html>
