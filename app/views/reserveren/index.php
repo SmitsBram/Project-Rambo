@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Reserveren-pagina</title>
+    <link rel="stylesheet" href="/css/reserveren.css">
 </head>
 <body>
     <h1>Reserveren</h1>
-     
+
+    <!--de navbar is tijdelijk -->
+
+    <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Over Ons</a>
+    <a href="#">Diensten</a>
+    <a href="#">Contact</a>
+</div>
+     <h2>Het restaurant is iedere dag van 17:00 - 22:00 geopened. De bar is van 22:00 - 00:00 open.</h2>
     <div class="container">
         <h2>Reserveren</h2>
         <form>
@@ -35,45 +45,12 @@
             <button type="submit">Reserveren</button>
         </form>
     </div>
-<!-- dit word nog verplaats naar scss  -->
-<style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 50%;
-            margin: 0 auto;
-            border: 2px solid #007BFF; /* Voeg een rand toe om het vak te maken */
-            padding: 20px; /* Voeg wat ruimte binnen het vak toe */
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            font-weight: bold;
-        }
-        input[type="number"],
-        input[type="date"],
-        input[type="time"] {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-        }
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-        }
-        button {
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    </style>
+
+<!-- de footer is ook tijdelijk -->
+
+    <div class="footer">
+    &copy; 2023 Jouw Bedrijfsnaam. Alle rechten voorbehouden.
+</div>
+
 </body>
 </html>
