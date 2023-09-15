@@ -19,7 +19,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#menu"></a>Menu</li>
                 <li><a href="#geschiedenis"></a>Geschiedenis</li>
-                <li><a href="#contact"></a>Contact</li>
+                <li><a href="../contact/index.php"></a>Contact</li>
             </ul>
             <div class="btn">
                 <button><a href="#login">LOGIN</a></button>
