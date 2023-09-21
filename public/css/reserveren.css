@@ -1,5 +1,8 @@
 body {
   font-family: Arial, sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -75,5 +78,19 @@ button {
 }
 
 /* hier eidigt de styling van de footer */
+/*  stijl voor de banner */
+.reserveren-banner {
+  text-align: center;
+  padding: 20px 0;
+  z-index: -1;
+  position: relative;
+  top: -10;
+}
+
+.reserveren-banner img {
+  max-width: 100%;
+}
+
+/*  hier eindigt de stijl voor de banner */
 
 /*# sourceMappingURL=reserveren.css.map */
