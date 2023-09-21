@@ -17,15 +17,9 @@
             <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
             <ul>
                 <li><a href="Homepage">Home</a></li>
-<<<<<<< HEAD
-                <li><a href="#menu"></a>Menu</li>
-                <li><a href="#geschiedenis"></a>Geschiedenis</li>
-                <li><a href="Contact"></a>Contact</li>
-=======
                 <li><a href="menu"></a>Menu</li>
                 <li><a href="geschiedenis"></a>Geschiedenis</li>
                 <li><a href="contact"></a>Contact</li>
->>>>>>> 62a793abc9e0a4b91fd7dbf35559e403d750bd6f
             </ul>
             <div class="btn">
                 <button><a href="login">LOGIN</a></button>
