@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <link rel="stylesheet" href="../public\scss\login.scss"> 
+    <title>Document</title>
 </head>
 <body>
+    <div class="ga-terug-container">
+    <a href="../">← Ga terug</a>
+    </div>
+
+    <div class="login-container">
+        <h2>Log in</h2>
+        <form>
+            <input type="text" name="username" placeholder="Username" required="required" />
+            <input type="password" name="password" placeholder="Password" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large"> <a href= "../">Inloggen</a></button>
+        </form>
+        <h5>Nog geen account?</h5>
+        <div class="login-help">
+            <a href="#">Register</a> • <a href="#">Forgot Password</a>
+        </div>
+    </div>
     
 </body>
 </html>
