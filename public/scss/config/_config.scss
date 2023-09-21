@@ -1,0 +1,21 @@
+@use "sass:map";
+
+$colors: (
+  "Teal":#04BF9D,
+  "LB":#D99F6C,
+  "MB":#A6633C,
+  "DB":#40261D,
+  "LG":#F2F2F2,
+  "White":#FFFF,
+  "Black": #000f,
+);
+
+@function get-color($color: false) {
+  @if $color {
+    @return map.get($colors, $color);
+  }
+
+  @else {
+    @return $colors;
+  }
+}
