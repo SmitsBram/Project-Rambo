@@ -1,9 +1,6 @@
 body {
-  background-image: url(/public/IMG/background-homepage.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
+  background: url(/public/IMG/background-homepage.png) no-repeat 100% 100%/cover;
+  min-height: 100vh;
 }
 
 .banner {
@@ -11,6 +8,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.banner .btns {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 50rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3rem;
+}
+.banner .btns a {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
