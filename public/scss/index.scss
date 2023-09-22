@@ -1,10 +1,14 @@
 body {
-    background-image: url(/public/IMG/background-homepage.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
+    // background-image: url(/public/IMG/background-homepage.png);
+    // background-position: 10% -5%;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // height: 100%;
+    // object-fit: fill;
     // position: relative; 
+    // max-height: ;
+    background: url(/public/IMG/background-homepage.png) no-repeat 100% 100% / cover;
+    min-height: 100vh;
 
 
 }
@@ -16,16 +20,18 @@ body {
     // background-color: red;
     flex-direction: column;
 
-    // .btns {
-    //     height: 2rem;
-    //     width: 10rem;
-    //     // background-color: #3FC2A0;
-    //     border-radius: 50rem;
-    //     text-decoration: none;
-    //     color: white;
-    //     letter-spacing: 0.3rem;
+    .btns {
+        height: 2rem;
+        width: 10rem;
+        // background-color: #3FC2A0;
+        border-radius: 50rem;
+        text-decoration: none;
+        color: white;
+        letter-spacing: 0.3rem;
 
-    //     a {
-    //         padding: 1rem;
-    //     }
+        a {
+            padding: 1rem;
+        }
+
+    }
 }
