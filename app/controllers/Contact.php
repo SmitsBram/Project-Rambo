@@ -7,7 +7,7 @@ class Contact extends BaseController
         $data = [
             'title' => 'Homepage'
         ];
-    
+
         $this->view('contact/index', $data);
     }
 }
