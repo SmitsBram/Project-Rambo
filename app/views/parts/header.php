@@ -22,7 +22,7 @@
                 <li><a href="contact">Contact</a></li>
             </ul>
             <div class="btn">
-                <button><a href="login">LOGIN</a></button>
+                <button><a href="Login">LOGIN</a></button>
             </div>
         </nav>
     </header>
