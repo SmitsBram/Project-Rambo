@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="public/css/contact.css">
 </head>
     <body id="contact">
-        <img src="../public/IMG/bg-contact.png">
-        <h1> This is my title </h1>
+        <div class="banner">
+            <img src="../public/IMG/eten.png">
+        </div>
+        <div class="container">
+            <h1 class="title">Contact Us</h1>
+        </div>
+        
     </body>
 </html>
