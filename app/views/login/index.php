@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="ga-terug-container">
-    <a href="../homepage/index.php">← Ga terug</a>
+    <a href="../">← Ga terug</a>
     </div>
 
     <div class="login-container">
@@ -16,7 +16,7 @@
         <form>
             <input type="text" name="username" placeholder="Username" required="required" />
             <input type="password" name="password" placeholder="Password" required="required" />
-            <button type="submit" class="btn btn-primary btn-block btn-large">Inloggen</button>
+            <button type="submit" class="btn btn-primary btn-block btn-large"> <a href= "../">Inloggen</a></button>
         </form>
         <h5>Nog geen account?</h5>
         <div class="login-help">

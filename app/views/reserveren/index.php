@@ -13,7 +13,9 @@
 
 <body>
     
-    
+<div class="reserveren-banner">
+    <img src="/public/img/reserveren.png" alt="Reserveren">
+</div>
     
     <h1>Reserveren</h1>
     <!--de navbar-->

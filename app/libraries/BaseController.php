@@ -18,14 +18,14 @@ class BaseController
         }
 
             
-    
+ 
         
         if (file_exists('../app/views/' . $view . '.php')) {
             require_once('../app/views/' . $view . '.php');
         } else {
             echo 'De view bestaat niet';
         }
-        
+
         if ( $view != 'login/index' ) {
         $this->part('footer', $data);
         }
