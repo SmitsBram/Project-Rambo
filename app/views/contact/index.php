@@ -21,7 +21,14 @@
         <div class="form">
             <div class="info">
                 <h1 class="info_title">Info</h1>
-                <p class="info_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nesciunt ducimus doloremque, voluptatibus ab at quod explicabo veritatis ratione non adipisci hic magni quis est sit eum, autem nobis error?</p>
+                <p class="info_desc">Heeft u een specifieke vraag of wilt u meer informatie ontvangen? Vul dan het onderstaande contactformulier in. We zullen zo snel mogelijk contact met u opnemen.
+                    <br>
+                    <br>
+                    Bij Rocambolesque streven we ernaar om u de best mogelijke service te bieden. We kijken uit naar uw bericht en hopen u binnenkort te mogen verwelkomen als een gewaardeerde klant of partner.
+                    <br>
+                    <br>
+                    Bedankt voor uw interesse in Rocambolesque!
+                </p>
                 <div class="info_contact">
                     <i class="fa-solid fa-phone"></i>
                         <span>+1 800 123 4567</span>
