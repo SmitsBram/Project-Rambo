@@ -17,14 +17,12 @@
             <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
             <ul>
                 <li><a href="Homepage">Home</a></li>
-                <li><a href="menu"></a>Menu</li>
-                <li><a href="geschiedenis"></a>Geschiedenis</li>
+                <li><a href="#menu"></a>Menu</li>
+                <li><a href="#geschiedenis"></a>Geschiedenis</li>
                 <li><a href="Contact"></a>Contact</li>
             </ul>
             <div class="btn">
-                <button><a href="login">LOGIN</a></button>
+                <button><a href="Login">LOGIN</a></button>
             </div>
         </nav>
     </header>
-
-    

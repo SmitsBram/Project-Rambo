@@ -16,7 +16,7 @@
     left: 10rem;
     /* top | right | bottom | left */
 
-    
+
     nav {
         position: relative;
         width: 90%;
@@ -45,9 +45,11 @@
         justify-content: center;
         flex: 1 2 60rem;
         align-items: center;
-        gap: 2rem;
+        gap: 3rem;
         position: relative;
         top: -1.8rem;
+
+        gap: 2rem;
     }
 
     a {
@@ -63,6 +65,7 @@
         display: flex;
         position: relative;
         top: -1.8rem;
+
         button {
             height: 2rem;
             width: 10rem;
