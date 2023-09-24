@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 @font-face {
+  src: url(../../public/fonts/Good\ Brush.ttf);
   font-family: "Good Brush";
-  src: url("../../Assets/good_brush/GoodBrush-Regular.ttf");
 }
 body .banner img {
   width: 100.15%;
