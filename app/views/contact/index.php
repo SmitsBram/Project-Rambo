@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
     <body id="contact">
+        <!-- Banner dat bovenaan de pagina komt te staan-->
         <div class="banner">
             <img src="../public/IMG/eten.png">
         </div>
+        <!--  Pagina Titel -->
         <div class="container">
             <h2 class="title">Contact Ons</h2>
         </div>
+        <!--  Informatie bar -->
         <div class="form">
             <div class="info">
                 <h1 class="info_title">Info</h1>
@@ -27,6 +30,7 @@
                         <span>Reestraat 8  1016DN Amsterdam</span>
                 </div>
             </div>
+            <!--  Formulier -->
             <div class="contact">
                 <label for="name">Naam</label><br>
                     <input required type="text" id="i" name="name" placeholder="Voor en achternaam"><br>
@@ -77,16 +81,3 @@
         </div>-->
     </body>
 </html>
-
-<!-- 
-    <p class="desc">At Nreal, we aim to make mixed reality available and accessible to everyone.We strive to realize the full potential of mixed reality by empowering developers to create ground-breaking applications that can ultimately propel a new era of entertainment, productivity and more.</p>
-                <div class="contact">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+1 800 123 4567</span>
-                    <br>
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>info@nreal.com</span>
-                    <br>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span id="location">Zhongguancun, the Silicon Valley of Beijing.</span>
--->
