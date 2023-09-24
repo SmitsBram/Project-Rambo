@@ -5,9 +5,9 @@ class Contact extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Homepage'
+            'title' => 'Contact'
         ];
 
-        $this->view('contact/index', $data);
+        $this->view('Contact/index', $data);
     }
 }
