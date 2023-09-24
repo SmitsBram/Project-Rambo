@@ -2,8 +2,6 @@
 @use "config/util";
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     background-color: config.get-color("black");
 }
