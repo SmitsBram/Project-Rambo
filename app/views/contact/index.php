@@ -5,14 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
     <link rel="stylesheet" href="public/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
     <body id="contact">
         <div class="banner">
             <img src="../public/IMG/eten.png">
         </div>
         <div class="container">
-            <h1 class="title">Contact Us</h1>
+            <h2 class="title">Contact Ons</h2>
         </div>
-        
+        <div class="form">
+            <div class="info">
+                <h1 class="info_title">Info</h1>
+                <p class="info_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nesciunt ducimus doloremque, voluptatibus ab at quod explicabo veritatis ratione non adipisci hic magni quis est sit eum, autem nobis error?</p>
+                <div class="info_contact">
+                    <i class="fa-solid fa-phone"></i>
+                        <span>+1 800 123 4567</span>
+                    <br>
+                    <i class="fa-solid fa-location-arrow"></i>
+                        <span>Reestraat 8  1016DN Amsterdam</span>
+                </div>
+            </div>
+            <div class="contact">
+                <label for="name">Naam</label><br>
+                    <input required type="text" id="i" name="name" placeholder="Voor en achternaam"><br>
+                    <label for="subject">Onderwerp</label><br>
+                    <input required type="text" id="i" name="subject" placeholder="Onderwerp van uw bericht"><br>
+                    <label for="message">Bericht</label><br>
+                    <textarea required name="message" id="message" cols="30" rows="10" placeholder="Uw bericht hier..."></textarea><br>
+                    <label for="email">E-mail</label><br>
+                    <input required type="email" id="i" name="email" placeholder="Uw mail adres"><br><br>
+                    <input type="submit" value="Verstuur" id="submit" class="submit">
+                </label>
+            </div>
+        </div>
+        <!--
+        <div class="form">
+            <div class="info">
+                <h1 class="title">Info</h1>
+                <p class="desc">At Nreal, we aim to make mixed reality available and accessible to everyone.We strive to realize the full potential of mixed reality by empowering developers to create ground-breaking applications that can ultimately propel a new era of entertainment, productivity and more.</p>
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+1 800 123 4567</span>
+                    <br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>info@nreal.com</span>
+                    <br>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="location">Zhongguancun, the Silicon Valley of Beijing.</span>
+                </div>
+            </div>
+            <form action="" method="post">
+                <?php
+                if (array_key_exists("created", $data)) {
+                    echo "<h1>Bericht is verstuurd!</h1>";
+                }
+                ?>
+                <label for="name">Name</label><br>
+                <input required type="text" id="i" name="name" placeholder="Your first and last name."><br>
+                <label for="subject">Subject</label><br>
+                <input required type="text" id="i" name="subject" placeholder="Subject of your message."><br>
+                <label for="message">Message</label><br>
+                <textarea required name="message" id="message" cols="30" rows="10" placeholder="Type here your message..."></textarea><br>
+                <label for="email">Keep in touch with Nreal!</label><br>
+                <input required type="email" id="i" name="email" placeholder="Your e-mail"><br><br>
+                <input type="checkbox" id="check" name="checkbox"><span>Please notify me for news updates.</span>
+                <input type="submit" value="Send Message" id="submit">
+            </form>
+        </div>
+        </div>-->
     </body>
 </html>
+
+<!-- 
+    <p class="desc">At Nreal, we aim to make mixed reality available and accessible to everyone.We strive to realize the full potential of mixed reality by empowering developers to create ground-breaking applications that can ultimately propel a new era of entertainment, productivity and more.</p>
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+1 800 123 4567</span>
+                    <br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>info@nreal.com</span>
+                    <br>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="location">Zhongguancun, the Silicon Valley of Beijing.</span>
+-->
