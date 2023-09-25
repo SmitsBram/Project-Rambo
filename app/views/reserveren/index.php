@@ -11,26 +11,26 @@
 </head>
 
 <body>
-    
-<div class="reserveren-banner">
-    <img src="/public/img/reserveren.png" alt="Reserveren"><br>
-</div>
-<br><br>
-<br><br>
+
+    <div class="reserveren-banner">
+        <img src="/public/img/reserveren.png" alt="Reserveren"><br>
+    </div>
+    <br><br>
+    <br><br>
 
 
-    
-    <h1>Reserveren</h1>
+
+    <h1 class="Reserveren-titel">Reserveren</h1>
     <!--de navbar-->
 
-    <h2>Het restaurant is iedere dag van 17:00 - 22:00 geopened. De bar is van 22:00 - 00:00 open.</h2>
+    <h2 class="Reserveren-openingstijd">Het restaurant is iedere dag van 17:00 - 22:00 geopened. De bar is van 22:00 - 00:00 open.</h2>
 
     <div class="container">
         <h2>Reserveren</h2>
         <form>
             <div class="form-group">
                 <label for="personen">Aantal personen:</label>
-                <input type="number" id="personen" name="personen" required>
+                <input type="number" id="personen" name="personen"  min="1" max="50" required>
             </div>
             <div class="form-group">
                 <label for="datum">Datum:</label>
@@ -52,4 +52,4 @@
             <button type="submit">Reserveren</button>
         </form>
     </div>
-    </body>
+</body>
