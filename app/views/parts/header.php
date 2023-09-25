@@ -19,12 +19,16 @@
             </div>
             <ul>
                 <li><a href="Homepage">Home</a></li>
-                <li><a href="menu">Menu</a></li>
+                <li><a href="Menu">Menu</a></li>
                 <li><a href="geschiedenis">Geschiedenis</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
+
             <div class="btn">
-                <button><a href="Login">LOGIN</a></button>
+                <button><a href="login">LOGIN</a></button>
             </div>
         </nav>
     </header>
+</body>
+
+</html>
