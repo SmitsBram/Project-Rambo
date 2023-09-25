@@ -47,6 +47,7 @@
         gap: 3rem;
         position: relative;
         top: -1.8rem;
+
         gap: 2rem;
     }
 
@@ -82,5 +83,11 @@
     }
 
     // Media query
+    @media(max-width: 768px) {
+        .img {
 
+            display: none;
+        }
+        
+    }
 }

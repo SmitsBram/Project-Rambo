@@ -66,5 +66,10 @@
 .main-head .btn button a {
   padding: 1rem;
 }
+@media (max-width: 768px) {
+  .main-head .img {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */
