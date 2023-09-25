@@ -14,7 +14,9 @@
     <?php $this->part('mainmenu'); ?>
     <header class="main-head">
         <nav>
-            <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
+            <div class="img">
+                <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
+            </div>
             <ul>
                 <li><a href="Homepage">Home</a></li>
                 <li><a href="Menu">Menu</a></li>
