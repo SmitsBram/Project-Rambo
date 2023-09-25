@@ -4,18 +4,25 @@
 .main-head {
     background-color: config.get-color("Black");
     color: white;
-    height: 5rem;
-    width: auto;
     border-radius: 50rem;
     margin: 2rem 2rem 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 80%;
+    height: 9%;
+    top: -.5rem;
+    left: 10rem;
     /* top | right | bottom | left */
 
 
     nav {
-        position: absolute;
+        position: relative;
         width: 90%;
         margin: auto;
         display: flex;
+        justify-content: center;
         align-items: center;
         // justify-content: center;
         min-height: 10vh;
@@ -28,8 +35,8 @@
         position: relative;
         flex: 1 1 10rem;
         inset: 0;
-        left: 10px;
-
+        left: 5px;
+        top: -1.5rem;
     }
 
     ul {
@@ -38,6 +45,9 @@
         justify-content: center;
         flex: 1 2 60rem;
         align-items: center;
+        gap: 3rem;
+        position: relative;
+        top: -1.8rem;
         gap: 2rem;
     }
 
@@ -52,6 +62,8 @@
         justify-content: center;
         align-items: center;
         display: flex;
+        position: relative;
+        top: -1.8rem;
 
         button {
             height: 2rem;

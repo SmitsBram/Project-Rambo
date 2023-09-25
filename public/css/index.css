@@ -1,9 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(/public/IMG/background-homepage.png);
-  background-position: center;
+  background-position: 10% 7%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100%;
+  object-fit: fill;
+  position: relative;
 }
 
 .banner {
@@ -11,6 +19,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.banner .btns {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 50rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3rem;
+}
+.banner .btns a {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
