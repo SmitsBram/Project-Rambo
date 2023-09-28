@@ -14,13 +14,12 @@
 
     <div class="reserveren-banner">
         <img src="/public/img/reserveren.png" alt="Reserveren"><br>
+        <h1 class="Reserveren-titel">Reserveren</h1>
+
     </div>
-    <br><br>
-    <br><br>
+    
 
 
-
-    <h1 class="Reserveren-titel">Reserveren</h1>
     <!--de navbar-->
 
     <h2 class="Reserveren-openingstijd">Het restaurant is iedere dag van 17:00 - 22:00 geopened. De bar is van 22:00 - 00:00 open.</h2>
