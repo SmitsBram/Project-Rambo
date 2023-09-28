@@ -1,3 +1,6 @@
+@use"./font";
+@use "./config/config";
+
 *,
 ::after,
 ::before {
@@ -115,6 +118,7 @@ button {
     position: relative;
     top: -10;
     // position: fixed;
+    size: 100%;
 }
 
 .reserveren-banner img {
@@ -123,6 +127,14 @@ button {
 /*  hier eindigt de stijl voor de banner */
 .Reserveren-titel{
     text-align: center;
+    position: relative;
+    top: -22rem;
+    left: 1.5rem;
+    font-family: "Good Brush";
+    color: config.get-color("White");
+    font-size: 4.5rem;
+    font-weight: lighter;
+    text-shadow: config.get-color("Black");
 }
 .Reserveren-openingstijd{
     text-align: center; 
