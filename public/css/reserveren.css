@@ -95,18 +95,6 @@ button {
 }
 
 /* hier eidigt de styling van de navbar) */
-/* Stijl voor de footer */
-.footer {
-  background-color: #333;
-  /* Achtergrondkleur van de footer */
-  color: white;
-  /* Tekstkleur in de footer */
-  text-align: center;
-  /* Centreer de tekst in de footer */
-  padding: 10px 0;
-  /* Ruimte binnen de footer */
-}
-
 /* hier eidigt de styling van de footer */
 /*  stijl voor de banner */
 .reserveren-banner {

@@ -1,0 +1,30 @@
+/* Algemene opmaak voor de hele pagina */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Opmaak voor de footer */
+.footer {
+  background-color: rgb(136, 130, 130);
+  padding: 20px;
+}
+
+/* Opmaak voor de kopjes */
+.brown-text {
+  color: brown;
+}
+
+/* Opmaak voor de secties naast elkaar */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Opmaak voor de tekst onder de kopjes */
+.footer-section p {
+  color: black;
+}
+
+/*# sourceMappingURL=footer.css.map */
