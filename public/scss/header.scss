@@ -1,4 +1,5 @@
 @use "./config/config";
+@use "./config/screen";
 
 // Nav section styling
 .main-head {
@@ -81,25 +82,10 @@
     }
 
     // Media query
-    @media(max-width: 768px) {
-        .img {
-
-            display: none;
-        }
-
-
-
-        nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            ul {
-                margin: 1rem;
-                background-color: red;
-                flex-direction: column;
-                // flex-wrap: wrap;
-            }
+    @include screen.size("s") {
+        nav{
+            
         }
     }
+
 }
