@@ -65,5 +65,20 @@
 .main-head .btn button a {
   padding: 1rem;
 }
+@media (max-width: 768px) {
+  .main-head .img {
+    display: none;
+  }
+  .main-head nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-head nav ul {
+    margin: 1rem;
+    background-color: red;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */

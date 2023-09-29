@@ -1,28 +1,47 @@
 /* Algemene opmaak voor de hele pagina */
+
+@use "./font";
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* Opmaak voor de footer */
-.footer {
-    background-color: rgb(136, 130, 130);
+footer {
+    margin-top: 4rem;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Opmaak voor de kopjes */
 .brown-text {
     color: brown;
+    font-family: 'Good Brush';
+    font-size: 22px;
+
 }
 
 /* Opmaak voor de secties naast elkaar */
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-}
 
 /* Opmaak voor de tekst onder de kopjes */
-.footer-section p {
-    color: black;
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .footer-section-content { 
+        display: flex;
+        gap: 2rem;
+        &p {
+            color: black;
+        }
+    }
+
+   
+    &footer-tijden {}
 }
