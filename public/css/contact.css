@@ -11,6 +11,16 @@ body .banner img {
   top: -18rem;
   z-index: -1;
 }
+@media screen and (max-width: 576px) {
+  body .banner img {
+    width: 250%;
+    height: 100%;
+    position: absolute;
+    left: -0.2rem;
+    top: -18rem;
+    z-index: -1;
+  }
+}
 body .container {
   display: flex;
   justify-content: center;
@@ -31,6 +41,18 @@ body .title {
   margin-bottom: 2rem;
   margin-top: 12rem;
 }
+@media screen and (max-width: 576px) {
+  body .title {
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -2.5rem;
+    left: 25rem;
+  }
+}
 body .form .info {
   display: flex;
   flex-direction: column;
@@ -48,6 +70,7 @@ body .form .info {
   background-image: url(../IMG/rct8.png);
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 body .form .info .info_title {
   text-transform: uppercase;
@@ -83,6 +106,52 @@ body .form .info .info_contact .fa-solid {
 }
 body .form .info .info_contact span {
   margin-left: 1.2rem;
+}
+@media screen and (max-width: 576px) {
+  body .form .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+    border-radius: 2rem 0rem 0rem 2rem;
+    padding: 1rem;
+    width: 100%;
+    height: 55rem;
+    position: relative;
+    top: 28rem;
+    left: 5rem;
+    background-image: url(../IMG/rct8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  body .form .info .info_desc {
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: lighter;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+  }
+  body .form .info .info_contact {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    position: absolute;
+    top: 45rem;
+    left: 2rem;
+  }
+  body .form .info .info_contact .fa-solid {
+    margin-top: 2rem;
+  }
+  body .form .info .info_contact span {
+    margin-left: 1.2rem;
+  }
 }
 body .form .contact {
   background-color: white;
