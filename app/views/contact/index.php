@@ -35,6 +35,7 @@
                     <br>
                     <i class="fa-solid fa-location-arrow"></i>
                         <span>Reestraat 8  1016DN Amsterdam</span>
+                        <span>Australiëlaan 12345 EC  - Amsterdam, Nederland</span>
                 </div>
             </div>
             <!--  Formulier -->

@@ -3,6 +3,7 @@
   color: white;
   border-radius: 50rem;
   margin: 2rem 2rem 0rem 2rem;
+  /* top | right | bottom | left */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,6 +68,21 @@
 }
 .main-head .btn button a {
   padding: 1rem;
+}
+@media (max-width: 768px) {
+  .main-head .img {
+    display: none;
+  }
+  .main-head nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-head nav ul {
+    margin: 1rem;
+    background-color: red;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

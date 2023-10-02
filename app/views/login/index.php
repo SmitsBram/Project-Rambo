@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public\scss\login.scss"> 
-    <title>Document</title>
+    <link rel="stylesheet" href="../../public/css/login.css">
+    <title>Inloggen</title>
 </head>
 <body>
     <div class="ga-terug-container">
@@ -12,15 +12,15 @@
     </div>
 
     <div class="login-container">
-        <h2>Log in</h2>
+        <h2>Inloggen</h2>
         <form>
-            <input type="text" name="username" placeholder="Username" required="required" />
-            <input type="password" name="password" placeholder="Password" required="required" />
-            <button type="submit" class="btn btn-primary btn-block btn-large"> <a href= "../">Inloggen</a></button>
+            <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam" required="required" />
+            <input type="password" name="wachtwoord" placeholder="Wachtwoord" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large"> <a href= "../">Inloggen</a> </button>
         </form>
         <h5>Nog geen account?</h5>
         <div class="login-help">
-            <a href="#">Register</a> • <a href="#">Forgot Password</a>
+            <a href="../register/index.php">Registeren</a> • <a href="../vergeten/index.php">Wachtwoord vergeten</a>
         </div>
     </div>
     
