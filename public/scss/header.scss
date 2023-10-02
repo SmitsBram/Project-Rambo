@@ -12,8 +12,10 @@
     position: fixed;
     width: 80%;
     height: 9%;
-    top: -.5rem;
+    top: 0;
     left: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
     /* top | right | bottom | left */
 
 
@@ -24,9 +26,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // justify-content: center;
         min-height: 10vh;
-        top: 2px;
+        top: 10px;
 
     }
 
@@ -45,9 +46,10 @@
         justify-content: center;
         flex: 1 2 60rem;
         align-items: center;
-        gap: 2rem;
+        gap: 3rem;
         position: relative;
         top: -1.8rem;
+        gap: 2rem;
     }
 
     a {
@@ -80,4 +82,7 @@
 
         }
     }
+
+    // Media query
+
 }

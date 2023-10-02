@@ -1,17 +1,23 @@
-body {
-    // background-image: url(/public/IMG/background-homepage.png);
-    // background-position: 10% -5%;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // height: 100%;
-    // object-fit: fill;
-    // position: relative; 
-    // max-height: ;
-    background: url(/public/IMG/background-homepage.png) no-repeat 100% 100% / cover;
-    min-height: 100vh;
-
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+// body {
+//     background-image: url(/public/IMG/background-homepage.png);
+//     background-position: 10% 7%;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     height: 100%;
+//     object-fit: fill;
+//     position: relative;
+// max-height: ;
+// background: url(/public/IMG/background-homepage.png) no-repeat 100% 100% / cover;
+// min-height: 100vh;
+
+
+// }
 
 .banner {
     display: flex;

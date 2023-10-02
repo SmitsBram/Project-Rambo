@@ -14,15 +14,23 @@
     <?php $this->part('mainmenu'); ?>
     <header class="main-head">
         <nav>
-            <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
+            <div class="img">
+                <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
+            </div>
             <ul>
                 <li><a href="Homepage">Home</a></li>
-                <li><a href="menu">Menu</a></li>
+                <li><a href="Menu">Menu</a></li>
                 <li><a href="geschiedenis">Geschiedenis</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
+
             <div class="btn">
                 <button><a href="login">LOGIN</a></button>
             </div>
         </nav>
     </header>
+
+
+    
+
+    
