@@ -16,6 +16,10 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column; /* Schakel over naar stapelmodus voor telefoonschermen */
+    }
 }
 
 /* Opmaak voor de kopjes */
@@ -34,14 +38,16 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     .footer-section-content { 
         display: flex;
         gap: 2rem;
+
         &p {
             color: black;
         }
     }
 
-   
-    &footer-tijden {}
+
+
 }

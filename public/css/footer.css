@@ -19,6 +19,11 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Schakel over naar stapelmodus voor telefoonschermen */
+  }
+}
 
 /* Opmaak voor de kopjes */
 .brown-text {
