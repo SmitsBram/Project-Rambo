@@ -13,8 +13,12 @@
     position: fixed;
     width: 80%;
     height: 9%;
-    top: -.5rem;
+    top: 0;
     left: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    /* top | right | bottom | left */
+    z-index: 2;
 
 
     nav {
@@ -25,7 +29,7 @@
         justify-content: center;
         align-items: center;
         min-height: 10vh;
-        top: 2px;
+        top: 10px;
 
     }
 
@@ -47,6 +51,7 @@
         gap: 3rem;
         position: relative;
         top: -1.8rem;
+        gap: 2rem;
     }
 
     a {
@@ -82,4 +87,25 @@
 
     // Media query
 
+    @media(max-width: 768px) {
+        .img {
+
+            display: none;
+        }
+
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                margin: 1rem;
+                background-color: red;
+                flex-direction: column;
+                // flex-wrap: wrap;
+            }
+        }
+    }
 }

@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@font-face {
+  src: url(../../public/fonts/Good\ Brush.ttf);
+  font-family: "Good Brush";
+}
 *,
 ::after,
 ::before {
@@ -109,6 +114,7 @@ button {
   z-index: -1;
   position: relative;
   top: -10;
+  size: 100%;
 }
 
 .reserveren-banner img {
@@ -118,6 +124,14 @@ button {
 /*  hier eindigt de stijl voor de banner */
 .Reserveren-titel {
   text-align: center;
+  position: relative;
+  top: -22rem;
+  left: 1.5rem;
+  font-family: "Good Brush";
+  color: white;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  text-shadow: black;
 }
 
 .Reserveren-openingstijd {
