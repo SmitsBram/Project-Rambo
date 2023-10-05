@@ -21,7 +21,6 @@
 
 
     <h1 class="Reserveren-titel">Reserveren</h1>
-        <h1 class="Reserveren-titel">Reserveren</h1>
 
     </div>
     
