@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="public/css/geschiedenis.css">
 </head>
     <body id="geschiedenis">
@@ -19,29 +19,14 @@
       </div>
       <div class="wrapper1">
         <div class="container1">
-          <p>De geschiedenis van de familie van der Valk begint in 1862
-          met de herberg De Gouden Leeuw in Voorschoten.
-          De Gouden Leeuw is onderdeel van de Rocambolesque.
-          Deze herberg is in 1862 gekocht door Martien van der Valk.
-          De Gouden Leeuw werd in 1863 geopend.
-          De herberg was een succes en Martien van der Valk besloot
-          om een nieuwe herberg te openen in 1872.
-          Deze herberg werd geopend in Valkenburg aan de Geul.
-          In 1892 werd de herberg in Valkenburg aan de Geul verkocht
-          en in 1894 werd de herberg in
+          <p>Restaurant Rocambolesque is ontstaan uit de samenwerking van twee bevriende ondernemers, Usem Alaoui en Finn Pinneau. 
+             Usem had al een lange carrière in de horeca achter de rug, voornamelijk als kok, terwijl Finn recentelijk zijn opleiding in restaurantmanagement had afgerond.
           <br><br>
-          Voorschoten verkocht. In 1910 werd er een nieuw hotel
-          gebouwd.
-
-          In 1919 werd het eerste hotel buiten Zuid-Holland geopend.
-          Dit hotel werd geopend in Nijmegen. In 1929 werd het eerste
-          hotel buiten Zuid-Holland geopend.
-          Dit hotel werd geopend in Nijmegen. In 1929 werd het eerste
-          hotel buiten Zuid-Holland geopend.
-          Dit hotel werd geopend in Nijmegen.
-          In 1939 werd het eerste hotel buiten Zuid-Holland geopend.
-          Dit hotel werd geopend in Nijmegen.
-          In 1949 werd het eerste hotel buiten Zuid-Holland geopend.
+             Finn, geïnspireerd door zijn passie voor de restaurantindustrie en de wens om iets nieuws te creëren, besloot om samen met Usem de sprong te wagen en een eigen restaurant te openen. 
+             Ze deelden een visie voor een eetgelegenheid die niet alleen hoogwaardige gerechten serveerde, maar ook een eigentijdse en levendige sfeer bood aan de gasten.
+          <br><br>
+          De naam "Rocambolesque," wat "fantastisch" betekent in het Frans, werd gekozen om een positieve en opwindende indruk te wekken. 
+          Bovendien had Finn een persoonlijke connectie met deze naam, aangezien zijn overgrootouders een restaurant met dezelfde naam in het noorden van Frankrijk hadden gehad.
         </p>
         </div>  
       </div>
@@ -74,36 +59,17 @@
         <div class="image-container">
           <img class="demo cursor" src="https://toohotel.com/wp-content/uploads/2022/09/TOO_restaurant_Panoramique_vue_Paris_nuit_v2-scaled.jpg" alt="The Woods">
           <div class="text1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi odit dolore cum illum quaerat, ipsum qui harum eos eum voluptatem assumenda unde aperiam debitis magni, corporis accusamus? Repudiandae, est?
-               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-               The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
+            <p>Hoewel ze erfgenamen waren van deze naam, besloten Usem en Finn om een geheel eigen stijl te hanteren. 
+              Ze richtten zich op het aanbieden van een eigentijds menu met seizoensgerechten van over de hele wereld. 
+              Om consistentie en kwaliteit te waarborgen, introduceerden ze vaste arrangementen en menu's die per seizoen zouden veranderen. 
+              Daarnaast zouden ze speciale arrangementen creëren om te vieren tijdens bepaalde feestdagen.
+              <br><br>
+              Met deze visie en toewijding begonnen Usem en Finn aan hun culinaire avontuur met Restaurant Rocambolesque, 
+              waar ze streven naar het bieden van een fantastische eetervaring voor hun gasten.
             </p>
           </div>
         </div>
       </div>
-
-
-      <footer>
-        <div class="footer-section">
-          <h2>Rocambolesque</h2>
-          <p>Austaliënlaan 12345 EC </p>
-          <p>Amsterdam, Nederland</p>
-         
-        </div>
-        <div class="footer-section">
-          <h2>Contact</h2>
-          <p>Phone: +31 06 123456789</p>
-          <p>Neem contact op --></p>
-        </div>
-        <div class="footer-section">
-          <h2>Openingstijden</h2>
-          <p>Monday-Donderdag: 12:00 - 22:00</p>
-          <p>Friday-Saturday:  12:00 - 01:00</p>
-          <p>Sunday: Closed</p>
-        </div>
-       
-      </footer>
 
     </body>
 </html>
