@@ -14,7 +14,13 @@
 
     <div class="reserveren-banner">
         <img src="/public/img/reserveren.png" alt="Reserveren"><br>
-        <h1 class="Reserveren-titel">Reserveren</h1>
+    </div>
+    <br><br>
+    <br><br>
+
+
+
+    <h1 class="Reserveren-titel">Reserveren</h1>
 
     </div>
     

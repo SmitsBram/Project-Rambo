@@ -4,6 +4,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-image: url("../IMG/login-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   background-image: url("../IMG/MenuBackground.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -13,6 +18,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .Item1-wite-container {
   position: relative;
@@ -85,3 +92,5 @@ body {
   font-family: "Roboto Slab";
   font-size: x-large;
 }
+
+
