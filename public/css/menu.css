@@ -59,11 +59,11 @@ body {
 .item5-black-notch::before {
   content: "";
   position: absolute;
-  top: -190px; /* Adjusted to be at the top */
+  top: -190px;
   left: 50%;
   transform: translateX(-50%);
-  width: 90px; /* Adjust the width of the notch */
-  height: 15px; /* Adjust the height of the notch */
+  width: 90px; 
+  height: 15px;
   background-color: black;
   border-radius: 0 0 10px 10px;
 }
@@ -76,3 +76,12 @@ body {
   font-size: xx-large;
 }
  
+.item7-container-text {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  top: 60%;
+  right: 28%;
+  font-family: "Roboto Slab";
+  font-size: x-large;
+}

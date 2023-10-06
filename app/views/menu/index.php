@@ -14,6 +14,7 @@
     <div class="item4-animation-container">
         <div class="item5-black-notch"></div>
         <h1 class="item6-container-titel">CHEFS BITES</h1>
+        <div class="item7-container-text"><p>Geniet van chefs borrel bites onder het genot van een heerlijk drankje.</p></div>
     </div>
 </div>
 
