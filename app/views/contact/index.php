@@ -40,52 +40,38 @@
             </div>
             <!--  Formulier -->
             <div class="contact">
-                <label for="name">Naam</label><br>
-                    <input required type="text" id="i" name="name" placeholder="Voor en achternaam"><br>
-                    <label for="subject">Onderwerp</label><br>
-                    <input required type="text" id="i" name="subject" placeholder="Onderwerp van uw bericht"><br>
-                    <label for="message">Bericht</label><br>
-                    <textarea required name="message" id="message" cols="30" rows="10" placeholder="Uw bericht hier..."></textarea><br>
-                    <label for="email">E-mail</label><br>
-                    <input required type="email" id="i" name="email" placeholder="Uw mail adres"><br><br>
-                    <input type="submit" value="Verstuur" id="submit" class="submit">
-                </label>
-            </div>
-        </div>
-        <!--
-        <div class="form">
-            <div class="info">
-                <h1 class="title">Info</h1>
-                <p class="desc">At Nreal, we aim to make mixed reality available and accessible to everyone.We strive to realize the full potential of mixed reality by empowering developers to create ground-breaking applications that can ultimately propel a new era of entertainment, productivity and more.</p>
-                <div class="contact">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+1 800 123 4567</span>
-                    <br>
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>info@nreal.com</span>
-                    <br>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span id="location">Zhongguancun, the Silicon Valley of Beijing.</span>
+            <form id="form">
+                <div class="contacted">
+                    <p>Bedankt voor uw bericht! <br> We nemen zo snel mogelijk contact met u op.</p>
                 </div>
+                <div class="field">
+                    <label>Naam</label>
+                    <input type="text" name="name" id="name" placeholder="Voor & achternaam">
+                </div>
+                <div class="field">
+                    <label>Onderwerp</label>
+                    <input type="text" name="subject" id="subject" placeholder="Onderwerp van uw bericht!">
+                </div>
+                <div class="field">
+                    <label for="message">Bericht</label>
+                    <input type="text" name="message" id="message" placeholder="Uw bericht hier...">
+                </div>
+                <div class="field">
+                    <label for="from_name">E-mail</label>
+                    <input type="text" name="from_name" id="from_name" placeholder="Uw mail adress hier">
+                </div>
+
+                <input type="submit" id="button" value="Verstuur" >
+                </form>
+                <!--  EmailJS -->
+                <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                <script type="text/javascript">
+                emailjs.init('DOsZoy0O4o-FOi1gl')
+                </script>
             </div>
-            <form action="" method="post">
-                <?php
-                if (array_key_exists("created", $data)) {
-                    echo "<h1>Bericht is verstuurd!</h1>";
-                }
-                ?>
-                <label for="name">Name</label><br>
-                <input required type="text" id="i" name="name" placeholder="Your first and last name."><br>
-                <label for="subject">Subject</label><br>
-                <input required type="text" id="i" name="subject" placeholder="Subject of your message."><br>
-                <label for="message">Message</label><br>
-                <textarea required name="message" id="message" cols="30" rows="10" placeholder="Type here your message..."></textarea><br>
-                <label for="email">Keep in touch with Nreal!</label><br>
-                <input required type="email" id="i" name="email" placeholder="Your e-mail"><br><br>
-                <input type="checkbox" id="check" name="checkbox"><span>Please notify me for news updates.</span>
-                <input type="submit" value="Send Message" id="submit">
-            </form>
         </div>
-        </div>-->
+        <script src="public/js/contact.js"></script>
     </body>
 </html>
