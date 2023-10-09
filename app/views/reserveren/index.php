@@ -7,7 +7,7 @@
     <meta name="description" content="Geniet van Momenten van Gastronomisch Genot bij Rocambolesque | Ontdek Heerlijke Gerechten, Bekroonde Wijnen en Onvergetelijk Dineren.">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/public/css/reserveren.css">
-    <title>Rocambolesque</title>
+    <title>Rocambolesque ® - Reserveren</title>
 </head>
 
 <body>

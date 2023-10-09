@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../public/css/menu.css">
     <link rel="shortcut icon" href="public/IMG/Logo/Rocambolesque-logo-DEF.png" type="image/x-icon">
-    <title>Template</title>
+    <title>Verken Wereldse Smaken</title>
 </head>
 <body>
 <div class="Item1-wite-container">
