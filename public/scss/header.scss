@@ -1,32 +1,35 @@
 @use "./config/config";
 
-
-// body {
-//     background-color: get-color("Black");
-//     // color: red;
-// }
-
 // Nav section styling
 .main-head {
-    background-color: black;
+    background-color: config.get-color("Black");
     color: white;
-    height: 5rem;
-    width: auto;
     border-radius: 50rem;
     margin: 2rem 2rem 0rem 2rem;
     /* top | right | bottom | left */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 80%;
+    height: 9%;
+    top: 0;
+    left: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    /* top | right | bottom | left */
+    z-index: 2;
 
 
     nav {
-        // background-color: config.get-color("Black");
-        position: absolute;
+        position: relative;
         width: 90%;
         margin: auto;
         display: flex;
+        justify-content: center;
         align-items: center;
-        // justify-content: center;
         min-height: 10vh;
-        top: 2px;
+        top: 10px;
 
     }
 
@@ -35,8 +38,8 @@
         position: relative;
         flex: 1 1 10rem;
         inset: 0;
-        left: 10px;
-
+        left: 5px;
+        top: -1.5rem;
     }
 
     ul {
@@ -46,6 +49,9 @@
         flex: 1 2 60rem;
         align-items: center;
         gap: 3rem;
+        position: relative;
+        top: -1.8rem;
+        gap: 2rem;
     }
 
     a {
@@ -59,6 +65,8 @@
         justify-content: center;
         align-items: center;
         display: flex;
+        position: relative;
+        top: -1.8rem;
 
         button {
             height: 2rem;
@@ -74,6 +82,30 @@
             }
 
 
+        }
+    }
+
+    // Media query
+
+    @media(max-width: 768px) {
+        .img {
+
+            display: none;
+        }
+
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                margin: 1rem;
+                background-color: red;
+                flex-direction: column;
+                // flex-wrap: wrap;
+            }
         }
     }
 }

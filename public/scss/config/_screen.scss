@@ -1,0 +1,8 @@
+@use 'sass:map';
+@use "./config";
+
+@mixin size($screenSize) {
+  @media screen and (max-width: config.get-screen-size($screenSize)) {
+      @content;
+  }
+}

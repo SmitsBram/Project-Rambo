@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../IMG/reg-bg.jpg");
+  backdrop-filter: blur(1.5px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ga-terug-container {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 25%;
+  left: -11%;
+  width: 100%;
+}
+
+.ga-terug-container a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-shadow: #000000;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.login-container h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: #3FC2A0;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.login-help {
+  font-size: 16px;
+  color: #000000;
+}
+
+.login-help a {
+  color: #3FC2A0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .login-container {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=register.css.map */

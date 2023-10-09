@@ -1,12 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@font-face {
+  src: url(../../public/fonts/Good\ Brush.ttf);
+  font-family: "Good Brush";
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 .container {
   width: 50%;
   margin: 0 auto;
-  border: 2px solid #007BFF; /* Voeg een rand toe om het vak te maken */
-  padding: 20px; /* Voeg wat ruimte binnen het vak toe */
+  border: 2px solid #341D19;
+  /* Voeg een rand toe om het vak te maken */
+  padding: 20px;
+  /* Voeg wat ruimte binnen het vak toe */
+  background-color: #EEF1F0;
+  border-radius: 10px;
 }
 
 .form-group {
@@ -45,35 +64,78 @@ button {
 /* dit is tijdelijk  */
 /* hier begint de styling van de navbar */
 .navbar {
-  background-color: #333; /* Achtergrondkleur van de navbar */
-  overflow: hidden; /* Voorkomt dat de inhoud uitsteekt */
+  background-color: #333;
+  /* Achtergrondkleur van de navbar */
+  overflow: hidden;
+  /* Voorkomt dat de inhoud uitsteekt */
 }
 
 /* Stijl voor de koppelingen in de navbar */
 .navbar a {
-  float: left; /* Laat de koppelingen naast elkaar staan */
-  display: block; /* Maakt van de hele link een klikbaar gebied */
-  color: white; /* Tekstkleur */
-  text-align: center; /* Centreer de tekst */
-  padding: 14px 16px; /* Ruimte binnen de koppelingen */
-  text-decoration: none; /* Verwijder de standaard onderstreping van koppelingen */
+  float: left;
+  /* Laat de koppelingen naast elkaar staan */
+  display: block;
+  /* Maakt van de hele link een klikbaar gebied */
+  color: white;
+  /* Tekstkleur */
+  text-align: center;
+  /* Centreer de tekst */
+  padding: 14px 16px;
+  /* Ruimte binnen de koppelingen */
+  text-decoration: none;
+  /* Verwijder de standaard onderstreping van koppelingen */
 }
 
 /* Stijl voor de koppelingen in de navbar bij hover (wanneer je met de muis erover beweegt) */
 .navbar a:hover {
-  background-color: #ddd; /* Achtergrondkleur bij hover */
-  color: black; /* Tekstkleur bij hover */
+  background-color: #ddd;
+  /* Achtergrondkleur bij hover */
+  color: black;
+  /* Tekstkleur bij hover */
 }
 
 /* hier eidigt de styling van de navbar) */
 /* Stijl voor de footer */
 .footer {
-  background-color: #333; /* Achtergrondkleur van de footer */
-  color: white; /* Tekstkleur in de footer */
-  text-align: center; /* Centreer de tekst in de footer */
-  padding: 10px 0; /* Ruimte binnen de footer */
+  background-color: #333;
+  /* Achtergrondkleur van de footer */
+  color: white;
+  /* Tekstkleur in de footer */
+  text-align: center;
+  /* Centreer de tekst in de footer */
+  padding: 10px 0;
+  /* Ruimte binnen de footer */
 }
 
 /* hier eidigt de styling van de footer */
+/*  stijl voor de banner */
+.reserveren-banner {
+  text-align: center;
+  z-index: -1;
+  position: relative;
+  top: -10;
+  size: 100%;
+}
+
+.reserveren-banner img {
+  max-width: 100%;
+}
+
+/*  hier eindigt de stijl voor de banner */
+.Reserveren-titel {
+  text-align: center;
+  position: relative;
+  top: -22rem;
+  left: 1.5rem;
+  font-family: "Good Brush";
+  color: white;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  text-shadow: black;
+}
+
+.Reserveren-openingstijd {
+  text-align: center;
+}
 
 /*# sourceMappingURL=reserveren.css.map */

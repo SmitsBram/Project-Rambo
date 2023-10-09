@@ -1,9 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
   flex-direction: column;
+}
+.banner .btns {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 50rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3rem;
+}
+.banner .btns a {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
