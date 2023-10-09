@@ -17,4 +17,34 @@ body {
   margin: 0;
 }
 
+.menu-titel {
+  text-align: center;
+  top: 7rem;
+  color: #DC9A6C;
+  position: relative;
+  font-family: "Good Brush";
+}
+
+.CHEFS-BITES {
+  margin-left: 3rem;
+}
+
+.minimum {
+  color: rgba(0, 0, 0, 0.422);
+}
+
+.roca-container {
+  display: flex;
+  align-items: center;
+}
+
+.roca {
+  margin-left: 3rem;
+}
+
+.roca-prijs {
+  text-align: center;
+  margin-left: 1rem;
+}
+
 /*# sourceMappingURL=menukaart.css.map */

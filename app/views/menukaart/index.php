@@ -11,27 +11,33 @@
 
 <a href="">Ga Terug</a>
 
-<h1>MENU</h1>
+<h1 class="menu-titel">MENU</h1>
+<br><br>
+<br><br>
 
 <div>
 
-    <div>
+    <div class="CHEFS-BITES">
     <h2>CHEFS BITES</h2>
-    <p>Minimaal 2 personen (prijs per persoon) <br>
-    Minimum of 2 persons (price per person)</p>
+    <p>Minimaal 2 personen (prijs per persoon)</p> 
+    <p class="minimum">Minimum of 2 persons (price per person)</p> 
     </div>
+    <br>
+     <br>
 
-        <div>
-        Roca 4 Gangen
-        Roca 6 Gangen
-        Roca 8 Gangen
-        </div>
+        <div class="roca-container">
+           <div class="roca">
+            Roca 4 Gangen<br>
+            Roca 6 Gangen<br>
+            Roca 8 Gangen<br>
+          </div>
 
-            <div>
-                20,50
-                 25,50
-                 30,50
+            <div class="roca-prijs">
+                20,50<br>
+                25,50<br>
+                30,50<br>
             </div>
+        </div>
 
 
                 <div>
