@@ -13,9 +13,12 @@ class BaseController
 
     public function view($view, $data = [])
     {
+        
         if ( $view != 'login/index' 
             && $view != 'register/index'
-            && $view != 'vergeten/index') {
+            && $view != 'vergeten/index'
+            && $view != 'menukaart/index')
+            {
             $this->part('header', $data);
         }
             
@@ -27,12 +30,13 @@ class BaseController
             echo 'De view bestaat niet';
         }
 
-        if ( $view != 'login/index' ) {
+        if ( $view != 'login/index' 
+        && $view != 'register/index'
+        && $view != 'vergeten/index'
+        && $view != 'menukaart/index')
+        {
         $this->part('footer', $data);
-        }
-        if ( $view != 'register/index' ) {
-            $this->part('footer', $data);
-            }
+    }
     }
 
     public function model($model)
