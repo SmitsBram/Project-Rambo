@@ -12,3 +12,11 @@ CREATE TABLE Gebruikersinfo (
     achternaam VARCHAR(50),
     aanmaakdatum TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE Reserveren (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    aantal_personen INT(10) NOT NULL,
+    reserveringsdatum DATE NOT NULL,
+    reserveringstijd TIME NOT NULL,
+    tafel INT(10) NOT NULL
+);
