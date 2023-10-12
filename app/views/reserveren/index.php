@@ -59,7 +59,7 @@
     </select>
     
     <div id="reservering-melding" style="display: none;">
-    Bedankt voor uw reservering! .
+    het reserveren is geslaagd, Bedankt voor uw reservering! .
 </div>
 
 </div>
