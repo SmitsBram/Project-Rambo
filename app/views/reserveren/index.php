@@ -32,7 +32,7 @@
 
     <div class="container">
         <h2>Reserveren</h2>
-        <form>
+        <form id="reserveringsFormulier" action="/reserveren/handleReservation" method="post">
             <div class="form-group">
                 <label for="personen">Aantal personen:</label>
                 <input type="number" id="personen" name="personen"  min="1" max="50" required>
@@ -46,15 +46,80 @@
                 <input type="time" id="tijd" name="tijd" required>
             </div>
             <div class="form-group">
-                <label for="tafel">Tafel:</label>
-                <select id="tafel" name="tafel" required>
-                    <option value="Tafel 1">Tafel 1</option>
-                    <option value="Tafel 2">Tafel 2</option>
-                    <option value="Tafel 3">Tafel 3</option>
-                    <option value="Tafel 4">Tafel 4</option>
-                </select>
-            </div>
+    <label for="tafel">Tafel:</label>
+    <select id="tafel" name="tafel" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+    </select>
+    
+    <div id="reservering-melding" style="display: none;">
+    Bedankt voor uw reservering! .
+</div>
+
+</div>
+
             <button type="submit">Reserveren</button>
         </form>
     </div>
+
+    <script>
+        // Get the div element
+    
+        document.addEventListener("DOMContentLoaded", function() {
+    var reserveringsFormulier = document.getElementById("reserveringsFormulier");
+    var reserveringMelding = document.getElementById("reservering-melding");
+
+    reserveringsFormulier.addEventListener("submit", function(event) {
+        event.preventDefault(); // Voorkom standaardformulierinzending
+
+        var formData = new FormData(reserveringsFormulier);
+
+        // Stuur een AJAX-verzoek naar de server om gegevens op te slaan
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/handleReservation.php");
+        xhr.send(formData);
+
+        // Toon de melding
+        reserveringMelding.style.display = "block";
+    });
+});
+// Show the div element
+reserveringMelding.style.display = "block";
+        document.addEventListener("DOMContentLoaded", function() {
+            var reserveringsFormulier = document.getElementById("reserveringsFormulier");
+
+            reserveringsFormulier.addEventListener("submit", function(event) {
+                //event.preventDefault(); // Voorkom standaardformulierinzending
+
+                var formData = new FormData(reserveringsFormulier);
+
+                // Stuur een AJAX-verzoek naar de server om gegevens op te slaan
+                fetch("handleReservation.php", {
+                    method: "POST",
+                    body: formData
+                })
+                .then(function(response) {
+                    if (response.ok) {
+                        return response.text();
+                    } else {
+                        throw new Error("Serverfout");
+                    }
+                })
+                .then(function(data) {
+                    // Hier kun je de reactie van de server verwerken (bijv. toon een succesbericht)
+                    console.log(data);
+                })
+                .catch(function(error) {
+                    // Hier kun je eventuele fouten verwerken
+                    console.error(error);
+                });
+            });
+        });
+    </script>
 </body>
