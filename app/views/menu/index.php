@@ -17,6 +17,3 @@
         <div class="item7-container-text"><p>Geniet van chefs borrel bites onder het genot van een heerlijk drankje.</p></div>
     </div>
 </div>
-
-</body>
-</html>
