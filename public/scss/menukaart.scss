@@ -23,9 +23,13 @@ body {
 }
 .CHEFS-BITES{
     margin-left: 3rem; 
+   
+    
 }
 .minimum{
     color: rgba(0, 0, 0, 0.422);
+    margin-top: -1rem;
+
 }
 
 .roca-container {
@@ -39,6 +43,25 @@ body {
 
 .roca-prijs {
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 8rem;
+    font-weight: bold;
 
+}
+
+.diner-kaart{
+    margin-left: 3rem;
+}
+.hallo{
+    text-align: center;
+    margin-top: -29rem;
+}
+.dddd{
+//color: red;
+}
+.prijs{
+  
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    margin-left: 45rem;
 }
