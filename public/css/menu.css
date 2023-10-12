@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../IMG/login-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../IMG/MenuBackground.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.Item1-wite-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  top: 450px;
+}
+
+.item2-orange-bar {
+  width: 100%;
+  background-color: brown;
+  height: 3px;
+}
+
+.Item3-titel {
+  text-align: center;
+  margin: 40px;
+  font-weight: 300;
+  font-family: "Roboto Slab";
+  font-size: x-large;
+}
+
+.item4-animation-container {
+  margin: 20px;
+  width: 70%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 10px;
+  border: 3.5px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.item5-black-notch {
+  position: relative; 
+}
+
+.item5-black-notch::before {
+  content: "";
+  position: absolute;
+  top: -190px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px; 
+  height: 15px;
+  background-color: black;
+  border-radius: 0 0 10px 10px;
+}
+
+.item6-container-titel {
+  position: absolute;
+  top: 150px;
+  right: 470px;
+  font-family: "Roboto Slab";
+  font-size: xx-large;
+}
+ 
+.item7-container-text {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  top: 60%;
+  right: 28%;
+  font-family: "Roboto Slab";
+  font-size: x-large;
+}
+
+

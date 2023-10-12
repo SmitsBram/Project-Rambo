@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@font-face {
+  src: url(../../public/fonts/Good\ Brush.ttf);
+  font-family: "Good Brush";
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.menu-titel {
+  text-align: center;
+  top: 7rem;
+  color: #DC9A6C;
+  position: relative;
+  font-family: "Good Brush";
+}
+
+.CHEFS-BITES {
+  margin-left: 3rem;
+}
+
+.minimum {
+  color: rgba(0, 0, 0, 0.422);
+}
+
+.roca-container {
+  display: flex;
+  align-items: center;
+}
+
+.roca {
+  margin-left: 3rem;
+}
+
+.roca-prijs {
+  text-align: center;
+  margin-left: 1rem;
+}
+
+/*# sourceMappingURL=menukaart.css.map */

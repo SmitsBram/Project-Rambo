@@ -7,7 +7,7 @@ $colors: (
   "DB":#40261D,
   "LG":#F2F2F2,
   "White":#FFFF,
-  "Black":#0000,
+  "Black": #000f,
 );
 
 @function get-color($color: false) {
@@ -19,3 +19,20 @@ $colors: (
     @return $colors;
   }
 }
+
+$screenSizes: (
+  "s": 576px,
+  "m": 768px,
+  "l": 992px,
+  "xl": 1200px,
+  "xxl": 1400px,
+);
+@function get-screen-size($key: false) {
+  @if $key {
+    @return map.get($screenSizes, $key);
+  } @else {
+    @return $screenSizes;
+  }
+}
+
+// Make mixin for screensizes
