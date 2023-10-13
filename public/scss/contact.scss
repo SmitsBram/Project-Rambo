@@ -46,6 +46,7 @@ body {
         margin-top: 12rem;
     }
     .form {
+        margin-bottom: 40rem;
         .info {
             display: flex;
             flex-direction: column;
@@ -106,8 +107,9 @@ body {
             padding: 1rem;
             width: 35rem;
             height: 39.66rem;
-            position: absolute;
-            top: 48.3rem;
+            position: relative;
+            margin-top: -.5rem;
+            top: 50rem;
             left: 55.0rem;
             label {
                 font-size: 1.5rem;

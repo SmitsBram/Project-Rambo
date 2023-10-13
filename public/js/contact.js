@@ -31,3 +31,9 @@ document.getElementById('form').addEventListener('submit', function(event) {
     document.getElementById('form').reset();
   }, 5000);
 });
+
+/**
+ * Sending email message to dashboard
+ * as div class Incoming
+ * display the from_name, subject and message
+ */

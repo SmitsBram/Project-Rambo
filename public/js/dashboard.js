@@ -1,29 +1,29 @@
-// On click, go to the page:
-/**
- * My classses:
- * 1. Menu
- * <div class="nav_item" id="menu" >
-                <img src="../public/IMG/icons/more.png" />
-                <p>Menu</p>
-    </div>
+function Go() {
+    // Nav Item 
+    const navitem = document.querySelectorAll('.nav_item');
 
-    2. Reserveren
-    <div class="nav_item" id="reserveren">
-                <img src="../public/IMG/icons/reservation.png" />
-                <p>Reserveren</p>
-    </div>
+    navitem.forEach((item) => {
+        item.addEventListener('click', (e) => {
+            // Bij klikken, user naar de juiste pagina sturen.
+            const menu = "/menu";
+            const reserveren = "reserveren";
+            const contact = "contact";
 
-    3. Contact
-    <div class="nav_item" id="contact">
-        <img src="../public/IMG/icons/contact.png" />
-    <p>Contact</p>
- */
+            const menuPage = document.getElementById('menu');
+            const reserverenPage = document.getElementById('reserveren');
+            const contactPage = document.getElementById('contact');
 
-// 1. Menu
-let menu = document.getElementById('menu');
-menu.addEventListener('click', function(){
-    window.location.href = '../app/views/menu/index.php';
-});
+            menuPage.addEventListener('click', () => {
+                window.location.href = menu;
+            });
 
-// 2. Reserveren
-let reserveren = document.getElementById('reserveren');
+            reserverenPage.addEventListener('click', () => {
+                window.location.href = reserveren;
+            });
+
+            contactPage.addEventListener('click', () => {
+                window.location.href = contact;
+            });
+        });
+    });
+};

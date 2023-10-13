@@ -40,28 +40,28 @@
             </div>
             <!--  Formulier -->
             <div class="contact">
-            <form id="form">
-                <div class="contacted">
-                    <p>Bedankt voor uw bericht! <br> We nemen zo snel mogelijk contact met u op.</p>
-                </div>
-                <div class="field">
-                    <label>Naam</label>
-                    <input type="text" name="name" id="name" placeholder="Voor & achternaam">
-                </div>
-                <div class="field">
-                    <label>Onderwerp</label>
-                    <input type="text" name="subject" id="subject" placeholder="Onderwerp van uw bericht!">
-                </div>
-                <div class="field">
-                    <label for="message">Bericht</label>
-                    <input type="text" name="message" id="message" placeholder="Uw bericht hier...">
-                </div>
-                <div class="field">
-                    <label for="from_name">E-mail</label>
-                    <input type="text" name="from_name" id="from_name" placeholder="Uw mail adress hier">
-                </div>
+                <form id="form">
+                    <div class="contacted">
+                        <p>Bedankt voor uw bericht! <br> We nemen zo snel mogelijk contact met u op.</p>
+                    </div>
+                    <div class="field">
+                        <label>Naam</label>
+                        <input type="text" name="name" id="name" placeholder="Voor & achternaam">
+                    </div>
+                    <div class="field">
+                        <label>Onderwerp</label>
+                        <input type="text" name="subject" id="subject" placeholder="Onderwerp van uw bericht!">
+                    </div>
+                    <div class="field">
+                        <label for="message">Bericht</label>
+                        <input type="text" name="message" id="message" placeholder="Uw bericht hier...">
+                    </div>
+                    <div class="field">
+                        <label for="from_name">E-mail</label>
+                        <input type="text" name="from_name" id="from_name" placeholder="Uw mail adress hier">
+                    </div>
 
-                <input type="submit" id="button" value="Verstuur" >
+                    <input type="submit" id="button" value="Verstuur" ></input>
                 </form>
                 <!--  EmailJS -->
                 <script type="text/javascript"
@@ -73,5 +73,3 @@
             </div>
         </div>
         <script src="public/js/contact.js"></script>
-    </body>
-</html>

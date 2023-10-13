@@ -41,6 +41,9 @@ body .title {
   margin-bottom: 2rem;
   margin-top: 12rem;
 }
+body .form {
+  margin-bottom: 40rem;
+}
 body .form .info {
   display: flex;
   flex-direction: column;
@@ -101,8 +104,9 @@ body .form .contact {
   padding: 1rem;
   width: 35rem;
   height: 39.66rem;
-  position: absolute;
-  top: 48.3rem;
+  position: relative;
+  margin-top: -0.5rem;
+  top: 50rem;
   left: 55rem;
 }
 body .form .contact label {
