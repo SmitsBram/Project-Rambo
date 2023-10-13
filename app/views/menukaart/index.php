@@ -11,64 +11,73 @@
 
 <a href="">Ga Terug</a>
 
-<h1>MENU</h1>
+<h1 class="menu-titel">MENU</h1><br>
+<br><br>
+<br><br>
 
 <div>
 
-    <div>
+    <div class="CHEFS-BITES">
     <h2>CHEFS BITES</h2>
-    <p>Minimaal 2 personen (prijs per persoon) <br>
-    Minimum of 2 persons (price per person)</p>
+    <p>Minimaal 2 personen (prijs per persoon)</p> 
+    <p class="minimum">Minimum of 2 persons (price per person)</p> 
     </div>
+    <br>
+     <br>
 
-        <div>
-        Roca 4 Gangen
-        Roca 6 Gangen
-        Roca 8 Gangen
+        <div class="roca-container">
+           <div class="roca">
+            Roca 4 Gangen<br>
+            Roca 6 Gangen<br>
+            Roca 8 Gangen<br>
+          </div>
+
+            <div class="roca-prijs">
+                20,50<br>
+                25,50<br>
+                30,50<br>
+            </div>
         </div>
 
-            <div>
-                20,50
-                 25,50
-                 30,50
-            </div>
+        <br><br>
 
-
-                <div>
+                <div class="diner-kaart">
                     <h2>DINER KAART</h2>
-                    <p>Red Dragon Maki 
-                        King crab en pittige tonijn 
-                        King crab and spicy tuna</p>
+                    <div>
+                    <p>Red Dragon Maki <br>
+                        King crab en pittige tonijn <br>
+                        King crab and spicy tuna</p></div><br>
 
-                        <p>Unagi Maki 
-                            Paling, komkommer en avocado 
-                            Eel, cucumber and avocado</p>
+                        <p>Unagi Maki<br> 
+                            Paling, komkommer en avocado<br>
+                            Eel, cucumber and avocado</p><br>
 
-                            <p>Carpaccio Maki 
-                                Dungesneden entrecôte en truffelsalsa 
-                                Thin sliced sirloin and truffle salsa</p>
+                            <p>Carpaccio Maki <br>
+                                Dungesneden entrecôte en truffelsalsa <br>
+                                Thin sliced sirloin and truffle salsa</p><br>
 
-                                <p>Wagyu Maki
-                                    Geflambeerde wagyu beef A5
-                                    Flambéed wagyu beef A5</p>
+                                <p>Wagyu Maki<br>
+                                    Geflambeerde wagyu beef A5<br>
+                                    Flambéed wagyu beef A5</p><br>
                 </div>
 
-                    <div>
+                    <div class="hallo">
                         <p>(4st/4pcs)                 (8st/8pcs)</p>
-
-                        <p>
+<div class="prijs">
+                        <p class="dddd">
                            12,00<br>
                            13,00<br>
                            09,50<br>
-                           14,50</p>
+                           14,50</p><br>
 
-                                                        <p>
+                                                        <br><p>
                                                             23,00<br>
                                                             25,00<br>
                                                             18,50<br>
-                                                            28,00</p>
-                    </div>
+                                                            28,00</p></div>
+                    </div><br>
 
 </div>
+<br>
 </body>
 </html>
