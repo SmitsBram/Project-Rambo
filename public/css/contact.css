@@ -177,6 +177,7 @@ body .form .contact {
   position: relative;
   top: -18rem;
   left: 56.5rem;
+  z-index: -2;
 }
 body .form .contact label {
   font-size: 1.5rem;

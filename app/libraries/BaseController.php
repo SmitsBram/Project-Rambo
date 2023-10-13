@@ -33,7 +33,8 @@ class BaseController
         if ( $view != 'login/index' 
         && $view != 'register/index'
         && $view != 'vergeten/index'
-        && $view != 'menukaart/index')
+        && $view != 'menukaart/index'
+        && $view != 'Homepage/index')
         {
         $this->part('footer', $data);
     }
