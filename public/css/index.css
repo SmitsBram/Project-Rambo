@@ -1,25 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@font-face {
+  src: url(../../public/fonts/Good\ Brush.ttf);
+  font-family: "Good Brush";
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.banner {
+.banner img {
+  width: 100%;
+  height: 107vh;
+  object-fit: cover;
+  margin-top: -2rem;
+}
+.banner h1 {
+  z-index: 1;
+  position: absolute;
+  top: 15rem;
+  width: 70%;
+  left: 20rem;
+  font-family: "Good Brush";
+  font-size: 8rem;
+  color: white;
+  text-align: center;
+}
+.banner .buttons {
+  position: relative;
+  top: -20rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 20px;
 }
-.banner .btns {
-  height: 2rem;
-  width: 10rem;
-  border-radius: 50rem;
-  text-decoration: none;
+.banner .buttons .menu {
+  background-color: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.banner .buttons .menu a {
   color: white;
-  letter-spacing: 0.3rem;
+  text-decoration: none;
 }
-.banner .btns a {
-  padding: 1rem;
+.banner .buttons .reserveren {
+  background-color: #D99F6C;
+  border-radius: 5px;
+  border: 2px;
+  padding: 2rem;
+}
+.banner .buttons .reserveren a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
