@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 ::-webkit-scrollbar {
   width: 0.6rem;
@@ -22,15 +21,12 @@
   background-color: white;
 }
 
-=======
 /* Algemene opmaak voor de hele pagina */
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
->>>>>>> 03c397ce05615b5409ed9c68c06c16299a97992f
 @font-face {
   src: url(../../public/fonts/Good\ Brush.ttf);
   font-family: "Good Brush";
 }
-<<<<<<< HEAD
 footer {
   width: 100%;
   display: flex;
@@ -41,12 +37,6 @@ footer {
 footer h1 {
   color: #D99F6C;
   font-family: "Good Brush";
-=======
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
 }
 
 /* Opmaak voor de footer */
@@ -84,7 +74,6 @@ footer {
 }
 .footer-section .footer-section-contentp {
   color: black;
->>>>>>> 03c397ce05615b5409ed9c68c06c16299a97992f
 }
 
 /*# sourceMappingURL=footer.css.map */

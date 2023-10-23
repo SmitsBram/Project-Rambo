@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../public/css/login.css">
-    <title>Rocambolesque ® - Inloggen</title>
-</head>
-<body>
+<?php
+
+$tags = [
+    '<link rel="stylesheet" href="/css/login.css">',
+];
+$data = [
+    'tags' => $tags,
+];
+$this->part('header',$data);
+
+?>
     <div class="ga-terug-container">
     <a href="../">← Ga terug</a>
     </div>
@@ -23,6 +25,5 @@
             <a href="../register/index.php">Registeren</a> • <a href="../vergeten/index.php">Wachtwoord vergeten</a>
         </div>
     </div>
-    
-</body>
-</html>
+ 
+<?php $this->part('footer', []);?>
