@@ -35,7 +35,7 @@
         <form id="reserveringsFormulier" action="/reserveren/handleReservation" method="post">
             <div class="form-group">
                 <label for="personen">Aantal personen:</label>
-                <input type="number" id="personen" name="personen"  min="1" max="50" required>
+                <input type="number" id="personen" name="personen"  min="1" max="10" required>
             </div>
             <div class="form-group">
                 <label for="datum">Datum:</label>

@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Roep de methode opslaanReservering aan om de gegevens op te slaan
     $reserverenModel->opslaanReservering($personen, $datum, $tijd, $tafel);
 
-   
 }
 ?>
+
+
