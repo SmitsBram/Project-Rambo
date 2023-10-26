@@ -1,91 +1,299 @@
 @use "./config/config";
 @use "./config/screen";
+@use "./font.scss";
+
+
+*,
+*::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
 
 // Nav section styling
-.main-head {
-    background-color: config.get-color("Black");
-    color: white;
-    border-radius: 50rem;
-    margin: 2rem 2rem 0rem 2rem;
-    /* top | right | bottom | left */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 80%;
-    height: 9%;
-    top: -.5rem;
-    left: 10rem;
+// .main-head {
+//     background-color: config.get-color("Black");
+//     color: white;
+//     border-radius: 50rem;
+//     margin: 2rem 2rem 0rem 2rem;
+//     /* top | right | bottom | left */
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     position: fixed;
+//     width: 80%;
+//     height: 9%;
+//     top: -.5rem;
+//     left: 10rem;
 
+
+//     nav {
+//         position: relative;
+//         width: 90%;
+//         margin: auto;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         min-height: 10vh;
+//         top: 2px;
+
+//     }
+
+//     #logo {
+//         width: 10rem;
+//         position: relative;
+//         flex: 1 1 10rem;
+//         inset: 0;
+//         left: 5px;
+//         top: -1.5rem;
+//     }
+
+//     ul {
+//         display: flex;
+//         list-style-type: none;
+//         justify-content: center;
+//         flex: 1 2 60rem;
+//         align-items: center;
+//         gap: 3rem;
+//         position: relative;
+//         top: -1.8rem;
+//     }
+
+//     a {
+//         color: white;
+//         text-decoration: none;
+
+//     }
+
+//     .btn {
+//         flex: 1 3 5rem;
+//         justify-content: center;
+//         align-items: center;
+//         display: flex;
+//         position: relative;
+//         top: -1.8rem;
+
+//         button {
+//             height: 2rem;
+//             width: 10rem;
+//             background-color: #3FC2A0;
+//             border-radius: 50rem;
+//             text-decoration: none;
+//             color: white;
+//             letter-spacing: 0.3rem;
+
+//             a {
+//                 padding: 1rem;
+//             }
+
+
+//         }
+//     }
+
+//     // Media query
+//     @include screen.size("s") {
+//         nav{
+
+//         }
+//     }
+
+
+
+// nav stylen opnieuw
+.main-head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 2rem 1rem;
+    top: 0;
 
     nav {
-        position: relative;
-        width: 90%;
-        margin: auto;
+        // min-height: 8rem;
+        border-radius: 50px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        min-height: 10vh;
-        top: 2px;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+        background-color: config.get-color("Black");
+        max-width: 90%;
 
-    }
+        font-family: "Roboto Slab";
 
-    #logo {
-        width: 10rem;
-        position: relative;
-        flex: 1 1 10rem;
-        inset: 0;
-        left: 5px;
-        top: -1.5rem;
-    }
+        .nav-title {
+            display: none;
+        }
 
-    ul {
-        display: flex;
-        list-style-type: none;
-        justify-content: center;
-        flex: 1 2 60rem;
-        align-items: center;
-        gap: 3rem;
-        position: relative;
-        top: -1.8rem;
-    }
+        #burger-menu {
+            display: none;
 
-    a {
-        color: white;
-        text-decoration: none;
+        }
 
-    }
+        position: fixed;
+        width: 100%;
 
-    .btn {
-        flex: 1 3 5rem;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        position: relative;
-        top: -1.8rem;
 
-        button {
-            height: 2rem;
-            width: 10rem;
-            background-color: #3FC2A0;
-            border-radius: 50rem;
-            text-decoration: none;
-            color: white;
-            letter-spacing: 0.3rem;
+        .img {
+            position: relative;
+
+            img {
+                position: absolute;
+                object-fit: cover;
+                height: 8rem;
+                left: 0;
+                transform: translateY(-55%);
+
+
+            }
+        }
+
+        ul {
+            list-style: none;
+            justify-content: space-between;
+            display: flex;
+            padding-left: 7rem;
+
+            // &.active {
+            // }
 
             a {
+                color: white;
+                text-decoration: none;
                 padding: 1rem;
+            }
+
+            li:last-of-type {
+                display: none;
+
             }
 
 
         }
-    }
 
-    // Media query
-    @include screen.size("s") {
-        nav{
-            
+        .btn {
+
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 0.5rem 3rem;
+                background-color: config.get-color("Teal");
+                border-radius: 50px;
+            }
+        }
+
+        #logo-res {
+            display: none;
         }
     }
+}
 
+// Media query
+@media screen and (max-width: 860px) {
+    .main-head {
+        nav {
+            max-width: 90%;
+            height: 4.5rem;
+            justify-content: center;
+
+
+
+            // .nav-title {
+            //     display: flex;
+            //     justify-content: center;
+            //     color: white;
+            //     text-align: center;
+            //     text-decoration: none;
+            //     font-family: "Good Brush";
+            // }
+
+            .btn {
+                display: none;
+            }
+
+            ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                background-color: black;
+                top: 100%;
+                justify-content: center;
+                padding: 0;
+                cursor: pointer;
+                left: 2rem;
+
+                &.active {
+                    display: flex;
+                }
+
+                li:last-of-type {
+                    display: block;
+                }
+
+                a {
+                    display: block;
+                    // padding: 1rem;
+                    width: 100%;
+
+                    &:hover {
+                        background-color: teal;
+                    }
+                }
+            }
+
+            // ul.active {
+            //     flex-direction: column;
+            //     position: absolute;
+            //     background-color: black;
+            //     top: 100%;
+            //     justify-content: center;
+            //     align-items: stretch;
+            //     padding: 0;
+            //     cursor: pointer;
+            //     left: 2rem;
+
+
+            //     li:last-of-type {
+            //         display: block;
+            //     }
+
+            //     a {
+            //         display: block;
+            //         font-family: "Roboto Slab";
+            //         // padding: 1rem;
+            //         width: 100%;
+
+            //         &:hover {
+            //             background-color: teal;
+            //         }
+            //     }
+            // }
+
+            #logo {
+                display: none;
+            }
+
+            #burger-menu {
+                position: absolute;
+                top: 1rem;
+                left: 2rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                // background-color: red; 
+                height: 2.5rem;
+            }
+
+            #logo-res {
+                display: flex;
+                height: 8rem;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+
+        }
+    }
 }
