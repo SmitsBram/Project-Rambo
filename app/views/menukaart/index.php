@@ -5,7 +5,7 @@ $tags = [
 ];
 $data = [
     'tags' => $tags,
-    'nav' => false,
+    'nav' => true,
 ];
 $this->part('header',$data);
 
@@ -64,22 +64,21 @@ $this->part('header',$data);
     </div>
 
     <div class="hallo">
-        <p class="prijstekst">(4st/4pcs) (8st/8pcs)</p>
+        <p class="prijstekst-4">(4st/4pcs)</p>
+        <p class="prijstekst-8">(8st/8pcs)</p>
         <div class="prijs-4-8">
 
             <div class="prijs-4">
-                <p>
-                    12,00<br>
-                    13,00<br>
-                    09,50<br>
-                    14,50</p><br>
+                <p class="prijs-4-12">12,00<br></p>
+                <p class="prijs-4-13">13,00<br></p>
+                <p class="prijs-4-9">09,50<br></p>
+                <p class="prijs-4-4">14,50<br></p>
             </div>
             <div class="prijs-8">
-                <p>
-                    23,00<br>
-                    25,00<br>
-                    18,50<br>
-                    28,00</p>
+                <p class="">23,00<br></P>
+                <p>25,00<br></p>
+                <p> 18,50<br></p>
+                <p>28,00<br></p>
             </div>
         </div>
     </div>
