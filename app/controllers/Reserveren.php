@@ -65,7 +65,7 @@ class Reserveren extends BaseController
             'reservations' => $reservations
         ];
     
-        $this->view('reserveren/reservations', $data);
+        $this->view('reserveren/index', $data);
     }
     
 }

@@ -35,7 +35,7 @@
         <form id="reserveringsFormulier" action="/reserveren/handleReservation" method="post">
             <div class="form-group">
                 <label for="personen">Aantal personen:</label>
-                <input type="number" id="personen" name="personen"  min="1" max="50" required>
+                <input type="number" id="personen" name="personen"  min="1" max="10" required>
             </div>
             <div class="form-group">
                 <label for="datum">Datum:</label>
@@ -69,57 +69,26 @@
     </div>
 
     <script>
-        // Get the div element
-    
-        document.addEventListener("DOMContentLoaded", function() {
-    var reserveringsFormulier = document.getElementById("reserveringsFormulier");
-    var reserveringMelding = document.getElementById("reservering-melding");
+    document.addEventListener("DOMContentLoaded", function() {
+        var reserveringsFormulier = document.getElementById("reserveringsFormulier");
+        var reserveringMelding = document.getElementById("reservering-melding");
 
-    reserveringsFormulier.addEventListener("submit", function(event) {
-        event.preventDefault(); // Voorkom standaardformulierinzending
+        reserveringsFormulier.addEventListener("submit", function(event) {
+            event.preventDefault(); // Voorkom standaardformulierinzending
 
-        var formData = new FormData(reserveringsFormulier);
+            var formData = new FormData(reserveringsFormulier);
 
-        // Stuur een AJAX-verzoek naar de server om gegevens op te slaan
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/handleReservation.php");
-        xhr.send(formData);
+            // Stuur een AJAX-verzoek naar de server om gegevens op te slaan met de 'XMLHttpRequest'-methode
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/handleReservation.php");
+            xhr.send(formData);
 
-        // Toon de melding
-        reserveringMelding.style.display = "block";
-    });
-});
-// Show the div element
-reserveringMelding.style.display = "block";
-        document.addEventListener("DOMContentLoaded", function() {
-            var reserveringsFormulier = document.getElementById("reserveringsFormulier");
+            // Toon de melding
+            reserveringMelding.style.display = "block";
 
-            reserveringsFormulier.addEventListener("submit", function(event) {
-                //event.preventDefault(); // Voorkom standaardformulierinzending
-
-                var formData = new FormData(reserveringsFormulier);
-
-                // Stuur een AJAX-verzoek naar de server om gegevens op te slaan
-                fetch("handleReservation.php", {
-                    method: "POST",
-                    body: formData
-                })
-                .then(function(response) {
-                    if (response.ok) {
-                        return response.text();
-                    } else {
-                        throw new Error("Serverfout");
-                    }
-                })
-                .then(function(data) {
-                    // Hier kun je de reactie van de server verwerken (bijv. toon een succesbericht)
-                    console.log(data);
-                })
-                .catch(function(error) {
-                    // Hier kun je eventuele fouten verwerken
-                    console.error(error);
-                });
-            });
+           
         });
-    </script>
+    });
+</script>
+
 </body>

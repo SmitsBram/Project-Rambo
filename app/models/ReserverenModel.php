@@ -1,4 +1,5 @@
 <?php
+
 require_once('../app/libraries/Database.php');
 
 class ReserverenModel {
@@ -6,7 +7,9 @@ class ReserverenModel {
 
     public function __construct() {
         $this->db = new PDO("mysql:host=localhost;dbname=rocambolesque;", "root", "");
+        $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
+    
 
     public function insertReservation($aantal_personen, $reserveringsdatum, $reserveringstijd, $tafel) {
         $sql = "INSERT INTO Reserveren (aantal_personen, reserveringsdatum, reserveringstijd, tafel) 
@@ -22,4 +25,6 @@ class ReserverenModel {
             return false; // Reservation failed
         }
     }
+
+    
 }

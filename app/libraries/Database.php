@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../config/config.template.php';
+
 class Database
 {
     private $dbHandler;
@@ -29,11 +31,6 @@ class Database
     }
 
 
-    //DE OUDE CODE
-    //*public function prepare($sql)
-    //{
-    //    $this->statement = $this->dbHandler->prepare($sql);
-   // }
 
     public function prepare($sql)
 {
