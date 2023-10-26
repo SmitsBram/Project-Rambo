@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="public/css/header.css">
     <!-- <link rel="stylesheet" href="/public/css/index.css"> -->
     <title>Rocambolesque</title>
+    <script src="/public/js/app.js" defer></script>
 </head>
 
 <body>
@@ -15,18 +16,25 @@
     <header class="main-head">
         <nav>
             <div class="img">
+                <p>ٌ</p>
                 <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo">
             </div>
-            <ul>
+            <ul class="" id="mainmenu">
                 <li><a href="Homepage">Home</a></li>
                 <li><a href="Menu">Menu</a></li>
                 <li><a href="geschiedenis">Geschiedenis</a></li>
                 <li><a href="contact">Contact</a></li>
+                <li><a href="login">Login</a></li>
             </ul>
 
             <div class="btn">
-                <button><a href="login">LOGIN</a></button>
+                <a href="login">LOGIN</a>
             </div>
+            <img src="/public/IMG/icons/burger-menu.svg" alt="menu" id="burger-menu" onclick="toggleMenu()">
+
+            <!-- <a class="nav-title" href="Homepage">Rocambolesque</a> -->
+            <img src="/public/IMG/Logo/Rocambolesque-logo-DEF.png" alt="logo" id="logo-res">
+
         </nav>
     </header>
 </body>
