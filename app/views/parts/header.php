@@ -21,7 +21,7 @@
 
 <body>
     <?php 
-        if($data['nav'] == true) {
+        if($data['tags'] == true) {
             echo "
             
             
