@@ -1,20 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Geniet van Momenten van Gastronomisch Genot bij Rocambolesque | Ontdek Heerlijke Gerechten, Bekroonde Wijnen en Onvergetelijk Dineren.">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/public/css/reserveren.css">
-    <title>Rocambolesque</title>
-</head>
+<?php
+$tags = [
+    '    <link rel="stylesheet" href="/public/css/reserveren.css">',
+];
+$data = [
+    'tags' => $tags,
+];
+$this->part('header',$data);
 
+?>
 <body>
 
     <div class="reserveren-banner">
         <img src="/public/img/reserveren.png" alt="Reserveren"><br>
-        <h1 class="Reserveren-titel">Reserveren</h1>
+    </div>
+    <br><br>
+    <br><br>
+
+
+
+    <h1 class="Reserveren-titel">Reserveren</h1>
 
     </div>
     
@@ -51,4 +56,6 @@
             <button type="submit">Reserveren</button>
         </form>
     </div>
-</body>
+
+    
+    <?php $this->part('footer', []);?>

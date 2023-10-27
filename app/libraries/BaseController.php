@@ -13,26 +13,33 @@ class BaseController
 
     public function view($view, $data = [])
     {
-        if ( $view != 'login/index' 
+
+        if (
+            $view != 'login/index'
             && $view != 'register/index'
-            && $view != 'vergeten/index') {
+            && $view != 'vergeten/index'
+            && $view != 'menukaart/index'
+        ) {
             $this->part('header', $data);
         }
-            
- 
-        
+
+
+
         if (file_exists('../app/views/' . $view . '.php')) {
             require_once('../app/views/' . $view . '.php');
         } else {
             echo 'De view bestaat niet';
         }
 
-        if ( $view != 'login/index' ) {
-        $this->part('footer', $data);
-        }
-        if ( $view != 'register/index' ) {
+        if (
+            $view != 'login/index'
+            && $view != 'register/index'
+            && $view != 'vergeten/index'
+            && $view != 'menukaart/index'
+            && $view != 'Homepage/index'
+        ) {
             $this->part('footer', $data);
-            }
+        }
     }
 
     public function model($model)
