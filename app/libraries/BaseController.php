@@ -14,13 +14,13 @@ class BaseController
     public function view($view, $data = [])
     {
         
-        // if ( $view != 'login/index' 
-        //     && $view != 'register/index'
-        //     && $view != 'vergeten/index'
-        //     && $view != 'menukaart/index')
-        //     {
-        //     $this->part('header', $data);
-        // }
+         if ( $view != 'login/index' 
+           && $view != 'register/index'
+            && $view != 'vergeten/index'
+            && $view != 'menukaart/index')
+            {
+           $this->part('header', $data);
+         }
             
  
         

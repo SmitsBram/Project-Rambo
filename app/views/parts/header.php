@@ -21,7 +21,7 @@
 
 <body>
     <?php 
-        if($data['tags'] == true) {
+        if($data['tags'] == false) {
             echo "
             
             

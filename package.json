@@ -6,7 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass -w public/scss:public/css",
     "minify": "sass -w public/scss:public/css--style=compressed"
-    
   },
   "keywords": [],
   "author": "",
