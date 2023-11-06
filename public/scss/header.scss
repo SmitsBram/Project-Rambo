@@ -6,6 +6,8 @@
 *,
 *::after,
 ::before {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -105,6 +107,7 @@ body {
 // nav stylen opnieuw
 .main-head {
     display: flex;
+    width: 100%;
     justify-content: center;
     position: relative;
     padding: 2rem 1rem;
@@ -116,9 +119,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1.5rem 2rem;
+        padding: 0.5rem 2rem;
         background-color: config.get-color("Black");
-        max-width: 90%;
+        width: 90%;
+        position: fixed;
+        // width: 100%;
 
         font-family: "Roboto Slab";
 
@@ -131,8 +136,6 @@ body {
 
         }
 
-        position: fixed;
-        width: 100%;
 
 
         .img {
@@ -150,6 +153,8 @@ body {
         }
 
         ul {
+            // margin: 0;
+            // padding: 0;
             list-style: none;
             justify-content: space-between;
             display: flex;
@@ -159,6 +164,7 @@ body {
             // }
 
             a {
+                display: block;
                 color: white;
                 text-decoration: none;
                 padding: 1rem;

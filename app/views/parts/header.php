@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Geniet van Momenten van Gastronomisch Genot bij Rocambolesque | Ontdek Heerlijke Gerechten, Bekroonde Wijnen en Onvergetelijk Dineren.">
-    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/public/css/header.css">
+    <link rel="stylesheet" href="/public/css/globals.css">
     <!-- <link rel="stylesheet" href="/css/menukaart.css"> -->
     <link rel="stylesheet" href="/css/footer.css">
     <!-- <link rel="stylesheet" href="/public/css/index.css"> -->
+
     <title>Rocambolesque</title>
     <script src="/public/js/app.js" defer></script>
+    <?php
+    foreach ($data['tags'] as $tag) {
+        echo $tag;
+    }
+
+    ?>
 </head>
 
 <body>
@@ -39,6 +47,3 @@
 
         </nav>
     </header>
-</body>
-
-</html>

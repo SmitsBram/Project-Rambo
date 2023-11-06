@@ -8,21 +8,6 @@
     box-sizing: border-box;
 }
 
-// body {
-//     background-image: url(/public/IMG/background-homepage.png);
-//     background-position: 10% 7%;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     height: 100%;
-//     object-fit: fill;
-//     position: relative;
-// max-height: ;
-// background: url(/public/IMG/background-homepage.png) no-repeat 100% 100% / cover;
-// min-height: 100vh;
-
-
-// }
-
 .banner {
     img {
         width: 100%;
@@ -30,6 +15,7 @@
         object-fit: cover;
         margin-top: -2rem;
     }
+
     h1 {
         z-index: 1;
         position: absolute;
@@ -41,6 +27,7 @@
         color: white;
         text-align: center;
     }
+
     .buttons {
         position: relative;
         top: -20rem;
@@ -49,26 +36,30 @@
         align-items: center;
         flex-direction: row;
         gap: 20px;
+
         .menu {
             background-color: none;
             border: 2px solid white;
             border-radius: 5px;
             padding: 2rem;
+
             a {
                 color: white;
                 text-decoration: none;
             }
         }
+
         .reserveren {
             background-color: config.get-color("LB");
             border-radius: 5px;
             border: 2px;
             padding: 2rem;
+
             a {
                 color: white;
                 text-decoration: none;
             }
         }
     }
-    
+
 }

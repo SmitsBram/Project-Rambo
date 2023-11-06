@@ -3,7 +3,7 @@
   src: url(../fonts/Good\ Brush.ttf);
   font-family: "Good Brush";
 }
-body {
+.geschiedenis {
   /* Slideshow container */
   /* Hide the images by default */
   /* Next & previous buttons */
@@ -15,7 +15,7 @@ body {
   /* Fading animation */
   /* Add this CSS to set a fixed width and height for the images */
 }
-body .banner img {
+.geschiedenis .banner img {
   width: 100.15%;
   height: 100%;
   position: absolute;
@@ -23,26 +23,26 @@ body .banner img {
   top: -18rem;
   z-index: -1;
 }
-body .wrapper {
+.geschiedenis .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-body .wrapper .container {
+.geschiedenis .wrapper .container {
   text-align: center;
   width: 80%;
   height: 150%;
   font-family: "Poppins", sans-serif;
 }
-body .wrapper1 {
+.geschiedenis .wrapper1 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin-top: -860px;
 }
-body .wrapper1 .container1 {
+.geschiedenis .wrapper1 .container1 {
   text-align: center;
   width: 80%;
   height: 150%;
@@ -50,18 +50,18 @@ body .wrapper1 .container1 {
   font-size: 18px;
   line-height: 1.6;
 }
-body * {
+.geschiedenis * {
   box-sizing: border-box;
 }
-body .slideshow-container {
+.geschiedenis .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: -900px auto 0;
 }
-body .mySlides {
+.geschiedenis .mySlides {
   display: none;
 }
-body .prev {
+.geschiedenis .prev {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -75,7 +75,7 @@ body .prev {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-body .next {
+.geschiedenis .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -91,10 +91,11 @@ body .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-body .prev:hover, body .next:hover {
+.geschiedenis .prev:hover,
+.geschiedenis .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-body .text {
+.geschiedenis .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -103,14 +104,14 @@ body .text {
   width: 100%;
   text-align: center;
 }
-body .numbertext {
+.geschiedenis .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
-body .dot {
+.geschiedenis .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -120,10 +121,11 @@ body .dot {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-body .active, body .dot:hover {
+.geschiedenis .active,
+.geschiedenis .dot:hover {
   background-color: #717171;
 }
-body .fade {
+.geschiedenis .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -135,55 +137,60 @@ body .fade {
     opacity: 1;
   }
 }
-body .image {
+.geschiedenis .image {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   /* Adjust the height as needed */
 }
-body .image-container {
+.geschiedenis .image-container {
   display: flex;
   align-items: center;
 }
-body img.demo {
+.geschiedenis img.demo {
   max-width: 35%;
   /* Adjust the width of the image as needed */
   height: auto;
 }
-body .text1 {
+.geschiedenis .text1 {
   padding: 20px;
 }
-body .text1 p {
+.geschiedenis .text1 p {
   font-size: 18px;
   line-height: 1.6;
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-body .slide-image {
-  width: 100%; /* Set the width to 100% to make the images responsive */
-  height: 700px; /* Set the desired height for all images */
+.geschiedenis .slide-image {
+  width: 100%;
+  /* Set the width to 100% to make the images responsive */
+  height: 700px;
+  /* Set the desired height for all images */
 }
-body footer {
+.geschiedenis footer {
   background-color: #ffffff;
   color: black;
   padding: 20px;
   text-align: center;
 }
-body .footer-section {
+.geschiedenis .footer-section {
   margin: 0 20px;
   display: inline-block;
-  vertical-align: top; /* Align sections at the top */
+  vertical-align: top;
+  /* Align sections at the top */
 }
-body h2 {
+.geschiedenis h2 {
   font-size: 20px;
   color: #A55F3E;
   font-family: "Poppins", sans-serif;
 }
-body p {
+.geschiedenis p {
   font-size: 16px;
-  margin: 0; /* Remove margin to ensure consistent height */
-  padding: 10px 0; /* Add padding to control the height */
+  margin: 0;
+  /* Remove margin to ensure consistent height */
+  padding: 10px 0;
+  /* Add padding to control the height */
   font-family: "Poppins", sans-serif;
 }
 

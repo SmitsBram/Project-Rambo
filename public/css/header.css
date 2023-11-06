@@ -6,6 +6,8 @@
 *,
 *::after,
 ::before {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -15,6 +17,7 @@ body {
 
 .main-head {
   display: flex;
+  width: 100%;
   justify-content: center;
   position: relative;
   padding: 2rem 1rem;
@@ -25,12 +28,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: black;
-  max-width: 90%;
-  font-family: "Roboto Slab";
+  width: 90%;
   position: fixed;
-  width: 100%;
+  font-family: "Roboto Slab";
 }
 .main-head nav .nav-title {
   display: none;
@@ -55,6 +57,7 @@ body {
   padding-left: 7rem;
 }
 .main-head nav ul a {
+  display: block;
   color: white;
   text-decoration: none;
   padding: 1rem;
