@@ -1,14 +1,12 @@
 drop database if exists rocambolesque;
 create database rocambolesque;
 use rocambolesque;
-drop table if exists Gebruikersinfo;
 
-CREATE TABLE Gebruikersinfo (
+CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    gebruikersnaam VARCHAR(255) NOT NULL,
-    wachtwoord VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    number VARCHAR(11) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    voornaam VARCHAR(50),
-    achternaam VARCHAR(50),
-    aanmaakdatum TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    password VARCHAR(255) NOT NULL,
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

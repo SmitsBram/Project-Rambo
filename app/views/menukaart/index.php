@@ -7,7 +7,7 @@ $data = [
     'tags' => $tags,
     'nav' => true,
 ];
-$this->part('header',$data);
+$this->part('header', $data);
 
 ?>
 <a href="">Ga Terug</a>
@@ -104,4 +104,4 @@ $this->part('header',$data);
 </div>
 <br>
 
-<?php $this->part('footer', []);?>
+<?php $this->part('footer', []); ?>
