@@ -41,7 +41,7 @@ $this->part('header',$data);
     </div>
 
     <br><br>
-
+<table></table>
     <div class="diner-kaart">
         <h2>DINER KAART</h2>
         <div>
@@ -62,8 +62,24 @@ $this->part('header',$data);
             Geflambeerde wagyu beef A5<br>
             Flambéed wagyu beef A5</p><br>
     </div>
+    <div class="prijzen">
+            <p id ="stuks">(4st/4pcs)</p>
+            <p id="stuks">(8st/8pcs)</p>
+            <div class="prijs-4">
+                <p class="ps">12,00</p>
+                <p class="ps">13,00</p>
+                <p class="ps">9,50</p>
+                <p class="ps">14,50</p>
+            </div>
+            <div class="prijs-8">
+                <p class="ps">23,00</p>
+                <p class="ps">25,00</p>
+                <p class="ps">18,50</p>
+                <p class="ps">28,00</p>
+            </div>
+    </div>
 
-    <div class="hallo">
+    <!--<div class="hallo">
         <p class="prijstekst-4">(4st/4pcs)</p>
         <p class="prijstekst-8">(8st/8pcs)</p>
         <div class="prijs-4-8">
@@ -81,7 +97,7 @@ $this->part('header',$data);
                 <p>28,00<br></p>
             </div>
         </div>
-    </div>
+    </div>-->
 </div><br>
 
 
