@@ -49,36 +49,17 @@ body {
 }
 
 .diner-kaart{
-    margin-left: 3rem;
-    height: 90vh;
-}
-.hallo{
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: -29%;
+    width: 50%;
 }
+.prijzen {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    
 
-.prijstekst-4 {
-    margin-bottom: 10px; /* Voeg 10px ondermarge toe om de ruimte te vergroten */
-    margin-top: -20rem;
-    color: red;
 }
-
-.prijstekst-4, .prijstekst-8 {
-    display: flex; /* Maak de container een flex-container */
-    justify-content: center; /* Centreer de elementen horizontaal */
-}
-
-.prijstekst-4, .prijstekst-8  {
-    width: 7%; /* Laat elke kolom 50% van de containerbreedte innemen */
-    display: inline-block; /* Maak ze inline weergegeven zodat ze naast elkaar verschijnen */
-}
-
-.prijstekst-4 p , .prijstekst-8 p {
-    white-space: nowrap; /* Voorkom dat er nieuwe regels binnen de prijzen worden gemaakt */
-}
-
-
-
-
 

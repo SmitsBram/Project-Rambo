@@ -1,4 +1,21 @@
+<<<<<<< HEAD
 <!-- <head>
+=======
+<?php
+
+$tags = [
+    '<link rel="stylesheet" href="/css/menukaart.css">',
+];
+$data = [
+    'tags' => $tags,
+    'nav' => false,
+];
+$this->part('header',$data);
+
+?>
+
+<head>
+>>>>>>> 8d1b927144df6bc8c3f2566e94f9584875f4cc0f
     <link rel="stylesheet" href="/public/css/index.css">
     
 </head> -->
