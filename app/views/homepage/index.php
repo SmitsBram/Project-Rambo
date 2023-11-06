@@ -1,3 +1,16 @@
+<?php
+
+$tags = [
+    '<link rel="stylesheet" href="/css/menukaart.css">',
+];
+$data = [
+    'tags' => $tags,
+    'nav' => false,
+];
+$this->part('header',$data);
+
+?>
+
 <head>
     <link rel="stylesheet" href="/public/css/index.css">
     <link rel="stylesheet" href="/public/css/globals.css">
