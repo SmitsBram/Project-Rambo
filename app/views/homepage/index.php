@@ -1,21 +1,4 @@
-<<<<<<< HEAD
 <!-- <head>
-=======
-<?php
-
-$tags = [
-    '<link rel="stylesheet" href="/css/menukaart.css">',
-];
-$data = [
-    'tags' => $tags,
-    'nav' => false,
-];
-$this->part('header',$data);
-
-?>
-
-<head>
->>>>>>> 8d1b927144df6bc8c3f2566e94f9584875f4cc0f
     <link rel="stylesheet" href="/public/css/index.css">
     
 </head> -->
@@ -26,13 +9,14 @@ $tags = [
 ];
 $data = [
     'tags' => $tags,
+    'nav' => true
 ];
 
 
 $this->part('header', $data);
 
 ?>
-<section class="banner">
+<!-- <section class="banner">
     <h1>Verken Wereldse Smaken</h1>
     <img src="../public/IMG/background-homepage.png" alt="backgroundIMG">
     <div class="container"></div>
@@ -53,4 +37,4 @@ $this->part('header', $data);
         <button><a href="menu">Menu</a></button>
         <button><a href="reserveren">Reserveren</a></button>
     </div>
-</section>
+</section> -->

@@ -19,9 +19,6 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
-  position: relative;
-  padding: 2rem 1rem;
-  top: 0;
 }
 .main-head nav {
   border-radius: 50px;
@@ -31,6 +28,7 @@ body {
   padding: 0.5rem 2rem;
   background-color: black;
   width: 90%;
+  top: 2rem;
   position: fixed;
   font-family: "Roboto Slab";
 }
@@ -65,12 +63,13 @@ body {
 .main-head nav ul li:last-of-type {
   display: none;
 }
-.main-head nav .btn a {
+.main-head nav div.btn a button {
   color: white;
   text-decoration: none;
   padding: 0.5rem 3rem;
   background-color: #04BF9D;
   border-radius: 50px;
+  border: none;
 }
 .main-head nav #logo-res {
   display: none;
