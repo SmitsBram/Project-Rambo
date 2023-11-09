@@ -179,15 +179,17 @@ body {
 
         }
 
-        div.btn a {
+        .btn {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 3rem;
+            background-color: config.get-color("Teal");
+            border-radius: 50px;
+            border: none;
 
-            button {
-                color: white;
+            a {
                 text-decoration: none;
-                padding: 0.5rem 3rem;
-                background-color: config.get-color("Teal");
-                border-radius: 50px;
-                border: none;
+                color: white;
             }
         }
 
