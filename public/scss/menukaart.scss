@@ -1,65 +1,90 @@
 @use"./font";
 @use "./config/config";
 
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
 
 body {
-    font-family: Arial, sans-serif;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-}
-.menu-titel{
-    text-align: center;
-    top: 7rem;
-    color: #DC9A6C;
-   position: relative;
-   font-family: "Good Brush";
-}
-.CHEFS-BITES{
-    margin-left: 3rem; 
-   
-    
-}
-.minimum{
-    color: rgba(0, 0, 0, 0.422);
-    margin-top: -1rem;
+    width: 100%;
+    .svg-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
+        .svg-left {
+            svg {
+                margin-top: -30%;
+                margin-left: -8%;
+            }
+        }
+        .svg-right {
+            svg {
+                margin-right: -5%;
+            }
+        }
+    }
+    .head {
+        #title {
+            font-size: 4.5rem;
+            font-weight: 700;
+            margin-top: -1%;
+            margin-left: 46%;
+            color: config.get-color("lbrown");
+            font-family: "Good Brush";
+        }
+        #menuLink {
+            display: flex;
+            margin-left: 5%;   
+            margin-top: -3%;
+            text-decoration: none;
+            color: config.get-color("lbrown");
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-family: "Roboto Slab";
+        }
+    }
+    .container_chefbites {
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto Slab";
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.5rem;
+        .colored {
+            color: config.get-color("Teal");
+        }
+        #title {
+            text-transform: uppercase;
+            font-weight: 200;
+            text-shadow: 1px 1px 1px config.get-color("black");
+        }
+        #desc-eng {
+            color: config.get-color("gray");
+        }
+        .table_chefbites {
+            display: flex;
+            justify-content: space-between;
+            tr {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                #prijs {
+                    font-weight: 700;
+                    margin-left: 15rem;
+                }
+            }
+            .colored {
+                color: config.get-color("teal");
+            }
+        }
+        .table_gerechten {
+            display: flex;
+            position: relative;
+            top: -20rem;
+            #name {
+                font-weight: bolder;
+            }
+            #eng {
+                color: gray;
+            }
+        }
+    }
 }
-
-.roca-container {
-    display: flex; 
-    align-items: center; 
-}
-
-.roca {
-    margin-left: 3rem;
-}
-
-.roca-prijs {
-    text-align: center;
-    margin-left: 8rem;
-    font-weight: bold;
-
-}
-
-.diner-kaart{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-.prijzen {
-    background-color: bisque;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    
-    
-
-}
-

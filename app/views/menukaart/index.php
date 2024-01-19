@@ -11,6 +11,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/public/css/paginas/menukaart.css">
+    <link rel="stylesheet" href="/public/css/menukaart.css">
+
 
     <title>Rocambolesque ® - Menu</title>
 </head>
@@ -55,30 +57,33 @@ session_start();
             <tr>
                 <td><span class="colored">Roca</span>&nbsp;4 Gangen</td>
                 <br>
-                <td id="prijs"><?php //$data['fullMenus']['prijs']; ?></td>
+                <td id="prijs">20.29</td>
             </tr>
             <tr>
                 <td><span class="colored">Roca</span>&nbsp;6 Gangen</td>
                 <br>
-                <td id="prijs"><?php //$_SESSION['price']; ?></td>
+                <td id="prijs">22.29</td>
             </tr>
             <tr>
                 <td><span class="colored">Roca</span>&nbsp;8 Gangen</td>
                 <br>
-                <td id="prijs"><?php //$_SESSION['price']; ?></td>
+                <td id="prijs">25.29</td>
             </tr>
         </table>
 
         <table class="table_gerechten">
             <?php foreach ($data['fullMenus'] as $gerecht) : ?>
                 <tr>
-                    <td id="name"><?= $gerecht->gerecht_name ?></td><td></td>
+                    <td id="name"><?= $gerecht->gerecht_name ?></td><br>
                 </tr>
+                <br>
                 <tr>
-                    <td id="nl"><?= $gerecht->gerecht_beschNL ?></td><td id="prijs"><?= $gerecht->gerecht_prijs; ?></td>
+                    <td id="nl"><?= $gerecht->gerecht_beschNL ?></td>
+                    <td id="prijs"><?= $gerecht->gerecht_prijs; ?><br></td>
                 </tr>
                 <tr id="last">
-                    <td id="eng"><?= $gerecht->gerecht_beschEN ?></td><td></td>
+                    <td id="eng"><?= $gerecht->gerecht_beschEN ?></td>
+                    <td></td>
                 </tr>
             <?php endforeach ?>
 
@@ -91,6 +96,7 @@ session_start();
             <?php foreach ($data['fullMenus'] as $gerecht) : ?>
                 <tr>
                     <td><?= $gerecht->gerecht_beschEN ?></td>
+                    <br>
                 </tr>
             <?php endforeach ?>
 
@@ -125,69 +131,27 @@ session_start();
                         <p><?php $data['fullMenus']['desknl'] ?></p>
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <p><?php $_SESSION['gerecht'] ?></p>
-                        </td>
-                        <br>
-                        <td>
-                            <p><?php $_SESSION['descNL'] ?></p>
-                            <p><?php $_SESSION['descENG'] ?></p>
-                        </td>
-                        <br>
-                        <td>
-                            <p><?php $_SESSION['price'] ?></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p><?php $_SESSION['gerecht'] ?></p>
-                        </td>
-                        <br>
-                        <td>
-                            <p><?php $_SESSION['descNL'] ?></p>
-                            <p><?php $_SESSION['descENG'] ?></p>
-                        </td>
-                        <br>
-                        <td>
-                            <p><?php $_SESSION['price'] ?></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p><?php $_SESSION['gerecht'] ?></p>
-                        </td>
-                        <br>
-                        <td>
-                            <p><?php $_SESSION['descNL'] ?></p>
-                            <p><?php $_SESSION['descENG'] ?></p>
-                        </td>
-                        <br>
-                        <td>
-                            <p><?php $_SESSION['price'] ?></p>
-                        </td>
-                    </tr>
-                </table>
+                    
             </div> -->
 
-            <!-- Admin Menu Kaart -->
-        <?php elseif ($authLevel == 5) : ?>
-            <div class="admin_menu_kaart">
-                <h2>Dinerkaart</h2>
-                <!-- form -->
-                <form action="/menukaart" method="POST">
-                    <table>
-                        <tr>
-                            <td><input type="text" name="gerecht" placeholder="Gerecht"></td>
-                            <br>
-                            <td>
-                                <input type="text" name="descNL" placeholder="Beschrijving NL">
-                                <input type="text" name="descENG" placeholder="Beschrijving ENG">
-                            </td>
-                            <br>
-                            <td><input type="text" name="prijs" placeholder="Prijs"></td>
-                        </tr>
-                        <!-- <tr>
+        <!-- Admin Menu Kaart -->
+    <?php elseif ($authLevel == 5) : ?>
+        <div class="admin_menu_kaart">
+            <h2>Dinerkaart</h2>
+            <!-- form -->
+            <form action="/menukaart" method="POST">
+                <table>
+                    <tr>
+                        <td><input type="text" name="gerecht" placeholder="Gerecht"></td>
+                        <br>
+                        <td>
+                            <input type="text" name="descNL" placeholder="Beschrijving NL">
+                            <input type="text" name="descENG" placeholder="Beschrijving ENG">
+                        </td>
+                        <br>
+                        <td><input type="text" name="prijs" placeholder="Prijs"></td>
+                    </tr>
+                    <!-- <tr>
                         <td><input type="text" name="gerecht" placeholder="Gerecht"></td>
                         <br>
                         <td>
@@ -217,16 +181,16 @@ session_start();
                         <br>
                         <td><input type="text" name="prijs" placeholder="Prijs"></td>
                     </tr> -->
-                    </table>
-                    <button type="submit" name="opslaan">Opslaan</button>
-                    <button type="submit" name="verwijderen">Verwijderen</button>
-                </form>
-            </div>
+                </table>
+                <button type="submit" name="opslaan">Opslaan</button>
+                <button type="submit" name="verwijderen">Verwijderen</button>
+            </form>
+        </div>
 
-        <?php endif; ?>
     <?php endif; ?>
+<?php endif; ?>
 
-    <!--
+<!--
 <div class="container_dinerkaart">
     <h2 id="title">Dinerkaart</h2>
     <div class="dinerkaart">
@@ -246,7 +210,7 @@ session_start();
 <!-- spatie in html -->
 
 
-    <!--
+<!--
 
 <a href="">Ga Terug</a>
 

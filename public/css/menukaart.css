@@ -3,63 +3,76 @@
   src: url(../fonts/Good\ Brush.ttf);
   font-family: "Good Brush";
 }
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
+  width: 100%;
 }
-
-.menu-titel {
-  text-align: center;
-  top: 7rem;
-  color: #DC9A6C;
-  position: relative;
-  font-family: "Good Brush";
-}
-
-.CHEFS-BITES {
-  margin-left: 3rem;
-}
-
-.minimum {
-  color: rgba(0, 0, 0, 0.422);
-  margin-top: -1rem;
-}
-
-.roca-container {
+body .svg-top {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-
-.roca {
-  margin-left: 3rem;
+body .svg-top .svg-left svg {
+  margin-top: -30%;
+  margin-left: -8%;
 }
-
-.roca-prijs {
-  text-align: center;
-  margin-left: 8rem;
-  font-weight: bold;
+body .svg-top .svg-right svg {
+  margin-right: -5%;
 }
-
-.diner-kaart {
+body .head #title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: -1%;
+  margin-left: 46%;
+  font-family: "Good Brush";
+}
+body .head #menuLink {
+  display: flex;
+  margin-left: 5%;
+  margin-top: -3%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+}
+body .container_chefbites {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  font-family: "Roboto Slab";
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 1.5rem;
 }
-
-.prijzen {
-  background-color: bisque;
+body .container_chefbites .colored {
+  color: #04BF9D;
+}
+body .container_chefbites #title {
+  text-transform: uppercase;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px;
+}
+body .container_chefbites .table_chefbites {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  justify-content: space-between;
+}
+body .container_chefbites .table_chefbites tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+body .container_chefbites .table_chefbites tr #prijs {
+  font-weight: 700;
+  margin-left: 15rem;
+}
+body .container_chefbites .table_gerechten {
+  display: flex;
+  position: relative;
+  top: -20rem;
+}
+body .container_chefbites .table_gerechten #name {
+  font-weight: bolder;
+}
+body .container_chefbites .table_gerechten #eng {
+  color: gray;
 }
 
 /*# sourceMappingURL=menukaart.css.map */
